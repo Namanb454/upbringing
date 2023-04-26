@@ -32,8 +32,8 @@ function Main() {
                         <div id='group3' className='relative sm:h-auto h-96 text-center rounded-t-3xl sm:mx-5' >
 
                             <img className="lg:w- md:w- object-cover sm:h-auto h-full object-center rounded-lg md:mt-0 mt-" src="images/Group3.png" alt="step" />
-                            <div className='absolute sm:top-20 top-10 sm:text-6xl mx-auto text-3xl text-white w-full' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
-                            <p className="absolute w-full sm:top-72 top-32 sm:text-xl text-sm mx-auto text-white  text-center font-normal leading-" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child'simagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
+                            <div className='absolute sm:top-20 top-10 sm:text-6xl mx-auto text-xl text-white w-full' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
+                            <p className="absolute w-full sm:top-72 top-36 sm:text-xl text-sm mx-auto text-white  text-center font-normal leading-" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child'simagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
                                 valuable parenting skills through a fun and interactive gamified approach.</p>
 
                             <div className='absolute sm:bottom-16 bottom-4 w-full'>
