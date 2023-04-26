@@ -8,7 +8,7 @@ function Main() {
 
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px- py-10 md:flex-row flex-col items-center">
-                    <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" id='main1'>
+                    <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
                         <h1 className="title-font sm:text-8xl mx-auto text-4xl mb-10 font-medium text-gray-900" id='heading'>We Bring out The best
                             <br />
                             <div className="lg:block">in You and Your kids</div>
@@ -18,7 +18,7 @@ function Main() {
                         <button className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </button>
                         <div className='w-full'>
-                            <img className="lg:w- md:w- object-cover object-center rounded-lg md:mt-0 mt-12" src="images/Group2.png" alt="step" />
+                            <img className="object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
                         </div>
                     </div>
 
