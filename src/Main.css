@@ -3,22 +3,36 @@
      background-color: #fff6ea;
 }
 
-#mainText{
-    
+#main1{
+    width: inherit;    
+    font-family: 'Urbanist'
+}
 
-/* height: 262.55px; */
-/* left: 391.44px; */
 
-
+#heading{
 font-family: 'Sunny Spells';
 font-style: normal;
 font-weight: 400;
-/*font-size: 80px;
-line-height: 80px;
-*/
-/* or 83% */
-
 text-align: center;
-
 color: #0D1F4C;
+}
+
+#group3{
+    background-color: #110a20;
+    /* height: 30rem; */
+}
+
+#group3heading{
+    font-family: 'Sunny Spells';
+}
+
+#group3text{
+    font-family: 'Urbanist'
+}
+
+#button1{
+    box-shadow: 2px 2px gray;
+}
+#button2{
+    box-shadow: 2px 2px gray;
 }
