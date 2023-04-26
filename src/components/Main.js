@@ -37,9 +37,9 @@ function Main() {
                                 valuable parenting skills through a fun and interactive gamified approach.</p>
 
                             <div className='absolute sm:bottom-16 bottom-4 w-full'>
-                                <button className="mx-5 bg-black text-white py-1 px-7 focus:outline-none hover:bg-white hover:text-black m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
+                                <button className="mx-5 bg-black text-white py-1 px-6 focus:outline-none hover:bg-white hover:text-black m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
                                 </button>
-                                <button className="mx-5 bg-red-500 text-white  py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
+                                <button className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                                 </button>
 
                             </div>
