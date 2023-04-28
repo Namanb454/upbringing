@@ -50,7 +50,7 @@ function Main() {
 
                 <div className='w-full sm:h-96 h-80 mb-10' id='group6'>
                     <div className='sm:top-20 sm:pt-10 pt-10 sm:text-6xl mx-auto text-center text-xl w-full text-purple-500' id='group6heading'>Be first in the queue to experience <br /> the future of parenting</div>
-                    <p className="w- sm:text-xl text-sm sm:mt-14 mt-11 mx-auto text-white text-center font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
+                    <p className="w- sm:text-xl text-sm sm:mt-14 mt-11 mx-auto text-white text-center font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all <br/> stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
                     <div className='mx-auto w-fit sm:mt-16 mt-7'>
                         <button className="bg-white text-black py-1 px-6 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
