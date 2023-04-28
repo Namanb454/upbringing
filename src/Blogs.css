@@ -1,0 +1,16 @@
+#blog{
+    background-color: #fff6ea;
+}
+
+#blogHeading{
+font-family: 'Sunny Spells';
+font-style: normal;
+font-weight: 400;
+text-align: center;
+color: #0D1F4C; 
+}
+
+#blog1{
+    width: inherit;    
+    font-family: 'Urbanist'
+}
