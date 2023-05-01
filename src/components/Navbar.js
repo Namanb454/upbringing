@@ -13,9 +13,9 @@ export default function Navbar() {
             <Link to='/' className="mr-10 hover:text-gray-900">About Us</Link>
             <Link to='/blogs' className="mr-10 hover:text-gray-900">Resources</Link>
             <Link to='/' className="mr-10 hover:text-gray-900">Contact Us</Link>
-            <Link to='/signup' className="mr-10 hover:text-gray-900">signup</Link>
+            
           </nav>
-          <button className="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-400 rounded-lg text-base mt-4 md:mt-0">Choose Your Plan
+          <button className="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-400 rounded-lg text-base mt-4 md:mt-0" id='navbarButton'>Choose Your Plan
           </button>
         </div>
       </header>

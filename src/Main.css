@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+
 #main{
     /* background-color: #fdf1e2;*/
      background-color: #fff6ea;
@@ -20,6 +22,9 @@ color: #0D1F4C;
 #group2heading{
     font-family: 'Sunny Spells';
 }
+#group2text{
+    font-family: 'Urbanist'
+}
 
 #group3{
     background-color: #110a20;
@@ -36,11 +41,15 @@ color: #0D1F4C;
 
 #button1{
     box-shadow: 2px 2px gray;
+    font-family: 'Urbanist', sans-serif;
 }
 #button2{
     box-shadow: 2px 2px gray;
+    font-family: 'Urbanist', sans-serif;
 }
-
+#group5subheading{
+    font-family: 'Urbanist', sans-serif;
+}
 #group6{
     background-color: #201528;
 }

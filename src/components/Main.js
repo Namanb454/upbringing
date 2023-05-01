@@ -37,7 +37,7 @@ function Main() {
                                     <div className='flex'>
                                         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center sm:text-center text-left ">
                                             <h1 class="title-font flex sm:text-center sm:mt-0 mt-10 mr-auto mx-5 text-left sm:text-7xl text-6xl sm:mb-4 font-medium text-white" id='group2heading'>The Mind</h1>
-                                            <p class="sm:mb-8 text-white  mx-5 leading-relaxed">Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.</p>
+                                            <p class="sm:mb-8 text-white  mx-5 leading-relaxed" id='group2text'>Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.</p>
                                         </div>
                                         <img class="sm:w-48 w-20 sm:-mt-24 -mt-10 sm:h-80 h-40 object- object rounded" alt="hero" src="images/kid1.png" />
                                     </div>
@@ -47,7 +47,7 @@ function Main() {
 
 
 
-                        <div id='group3' className='relative sm:h-auto h-96 text-center rounded-t-3xl sm:mx-5' >
+                        <div id='group3' className='relative sm:h-auto h-96 text-center rounded-t-3xl sm:mx-10' >
 
                             <img className="lg:w- md:w- object-cover sm:h-auto h-full object-center rounded-lg md:mt-0 mt-" src="images/Group3.png" alt="step" />
                             <div className='absolute sm:top-20 top-10 sm:text-6xl mx-auto text-xl text-white w-full' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
@@ -71,7 +71,7 @@ function Main() {
 
                             <img className="lg:w- md:w- object-cover sm:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
                             <div className='absolute sm:top-20 top-10 sm:text-6xl mx-auto text-2xl text w-full' id='group5heading'>We help parents at child’s every step</div>
-                            <p className="absolute w-full sm:top-40 top-20 sm:text-xl text-sm mx-auto text-black text-center font-normal leading-" id=''>Click on the button to know how</p>
+                            <p className="absolute w-full sm:top-40 top-20 sm:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
                             <div className='absolute sm:flex-0 flex sm:bottom-80 bottom-44 w-full'>
 

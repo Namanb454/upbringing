@@ -17,15 +17,15 @@ function Footer() {
                     font-semibold text-center">
 
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3">About Us</a>
+                            <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>About Us</a>
 
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3">Contact Us</a>
+                            <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>Contact Us</a>
 
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3">Resources</a>
+                            <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>Resources</a>
                         </div>
                     </div>
                 </div>
