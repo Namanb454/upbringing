@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Main.css'
+import { Link } from 'react-router-dom'
 
 function Main() {
     return (
@@ -28,6 +29,23 @@ function Main() {
                     <div className="lg:flex-grow md:w-1/2 lg:pr- md:pr- flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <h1 className="title-font sm:text-8xl mx-auto text-5xl mb-10 font-medium text-gray-900" id='heading'>How we help kIds
                         </h1>
+                        <div>
+
+
+                            <section class="flex  text-gray-600 body-font sm:py-20">
+                                <div class="container mb-10 bg-red-500 sm:w-3/5 sm:h-72 flex sm:mx-auto sm:px-16 sm:py-44 md:flex-row flex-col items-center">
+                                    <div className='flex'>
+                                        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center sm:text-center text-left ">
+                                            <h1 class="title-font flex sm:text-center sm:mt-0 mt-10 mr-auto mx-5 text-left sm:text-7xl text-6xl sm:mb-4 font-medium text-white" id='group2heading'>The Mind</h1>
+                                            <p class="sm:mb-8 text-white  mx-5 leading-relaxed">Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.</p>
+                                        </div>
+                                        <img class="sm:w-48 w-20 sm:-mt-24 -mt-10 sm:h-80 h-40 object- object rounded" alt="hero" src="images/kid1.png" />
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+
 
                         <div id='group3' className='relative sm:h-auto h-96 text-center rounded-t-3xl sm:mx-5' >
 
@@ -45,20 +63,48 @@ function Main() {
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-                <div className='w-full sm:h-96 h-80 pb-10' id='group6'>
-                    <div className='sm:top-20 sm:pt-10 pt-10 sm:text-6xl mx-auto text-center text-xl w-full text-purple-500' id='group6heading'>Be first in the queue to experience <br /> the future of parenting</div>
-                    <p className="w- sm:text-xl text-sm sm:mt-14 mt-11 mx-auto text-white text-center font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all <br/> stages. Get valuable information, tips, and advice on a wide range of topics.</p>
+                <div className="container mx-auto flex px- py-  md:flex-row flex-col items-center">
+                    <div className="lg:flex-grow md:w-1/2 lg:pr- md:pr- flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <div id='' className='relative sm:h-auto h-96 text-center' >
 
-                    <div className='mx-auto w-fit sm:mt-16 mt-7'>
-                        <button className="bg-white text-black py-1 px-6 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
-                        </button>
+                            <img className="lg:w- md:w- object-cover sm:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
+                            <div className='absolute sm:top-20 top-10 sm:text-6xl mx-auto text-2xl text w-full' id='group5heading'>We help parents at child’s every step</div>
+                            <p className="absolute w-full sm:top-40 top-20 sm:text-xl text-sm mx-auto text-black text-center font-normal leading-" id=''>Click on the button to know how</p>
 
+                            <div className='absolute sm:flex-0 flex sm:bottom-80 bottom-44 w-full'>
 
+                                <button className="sm:mx-28 sm:h-12 bg-red-500 text-white py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Infant-2year
+                                </button>
+                                <button className="sm:mx-28 sm:h-12 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>02-05
+                                </button>
+                                <button className="sm:mx-28 sm:h-12 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>05-08
+                                </button>
+                                <button className="sm:mx-28 sm:h-12 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>08+
+                                </button>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div className='flex w-fit my-20 sm:mx-5 sm:h-96 h-80 pb-10' id='group6'>
+                    <div className='w- sm:ml-20 mx-5'>
+                        <h2 className='sm:top-20 sm:pt-10 pt-10 sm:text-6xl  text- text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
+                        <p className="w- sm:text-xl text-sm sm:mt-14 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
+
+                        <div className='mx- w-fit sm:mt-16 mt-7'>
+                            <Link to='/signup' className="bg-white text-black py-1 px-6 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='my-auto ml-auto'>
+                        <img src='images/Group7.png' alt='img' />
+                    </div>
+                </div>
+
+
             </section>
         </div>
     )

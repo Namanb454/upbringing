@@ -17,6 +17,10 @@ text-align: center;
 color: #0D1F4C;
 }
 
+#group2heading{
+    font-family: 'Sunny Spells';
+}
+
 #group3{
     background-color: #110a20;
     /* height: 30rem; */
@@ -43,4 +47,9 @@ color: #0D1F4C;
 
 #group6heading{
     font-family: 'Sunny Spells';
+}
+
+#group5heading{
+    font-family: 'Sunny Spells';
+    color: #FBBB4D;
 }

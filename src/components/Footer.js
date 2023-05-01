@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -39,14 +40,14 @@ function Footer() {
                     </p>
 
                     <div className='sm:flex'>
-                        <div className='flex sm:mx-0 mx-7 h-10 my-10'>
+                        <div className='flex sm:mx-0 h-10 my-10'>
                             <div className='flex sm:mx-1 mx-auto px-2 sm:w-60 w-60 sm:h-auto py-2  bg- text-white sm:ml-16' id='footer1'>
                                 We saved a spot for your email
                             </div>
 
                             <div className='flex mx-auto w-fit'>
-                                <button className=" bg-white text-black py-2 px-6 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0" id='button2'>Sign Up
-                                </button>
+                                <Link to='/signup' className=" bg-white text-black py-2 px-6 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0" id='button2'>Sign Up
+                                </Link>
                             </div>
                         </div>
 
