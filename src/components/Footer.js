@@ -6,25 +6,25 @@ function Footer() {
     return (
         <div>
             <footer className="text-gray-600 body-font" id='footer'>
-                <div className="container px-5 sm:pt-24 pt-10 sm:pb-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+                <div className="container px-5 md:px-0 lg:pt-24 md:py-10 pt-10 lg:pb-10 mx-auto flex lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                         <a href='/' className="flex title-font font-medium items-center md:justify- justify-center text-gray-900">
-                            <img className='w-32' href='/' src='images/Group1.png' />
+                            <img className='w-32' href='/' src='images/Group1.png' alt='img'/>
                         </a>
 
                     </div>
-                    <div className="w-fit flex-grow flex flex-wrap sm:ml-28 mx-auto md:pl-96 mb-10 sm:mt-0 mt-10 md:text-
+                    <div className="w-fit flex-grow flex flex-wrap lg:mx-96 lg:mr-auto mx-auto md:pl- mb-10 lg:mt-0 mt-10 md:text-
                     font-semibold text-center">
 
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/3 md:w-1/3 w-full px-4">
                             <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>About Us</a>
 
                         </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/3 md:w-1/3 w-full px-4">
                             <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>Contact Us</a>
 
                         </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/3 md:w-1/3 w-full px-4">
                             <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>Resources</a>
                         </div>
                     </div>
@@ -34,30 +34,30 @@ function Footer() {
                     <hr className="h-px mx-12 bg-black border-0 dark:bg-gray-700" />
                 </div>
 
-                <div className='w-full sm:mt-10 mt-10 sm:pb-5 pb-5'>
-                    <p className='sm:w-64 text-center'>
+                <div className='w-full lg:mt-10 mt-10 lg:pb-5 pb-5'>
+                    <p className='lg:w-64 text-center'>
                         Leave a request
                     </p>
 
-                    <div className='sm:flex'>
-                        <div className='flex sm:mx-0 h-10 my-10'>
-                            <div className='flex sm:mx-1 mx-auto px-2 sm:w-60 w-60 sm:h-auto py-2  bg- text-white sm:ml-16' id='footer1'>
+                    <div className='lg:flex'>
+                        <div className='flex lg:mx-0 h-10 my-10'>
+                            <div className='flex lg:mx-1 mx-auto px-2 lg:w-60 w-60 lg:h-auto py-2  bg- text-white lg:ml-16' id='footer1'>
                                 We saved a spot for your email
                             </div>
 
                             <div className='flex mx-auto w-fit'>
-                                <Link to='/signup' className=" bg-white text-black py-2 px-6 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0" id='button2'>Sign Up
+                                <Link to='/signup' className=" bg-white text-black py-2 md:py-2 px-6 md:px-3 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0" id='button2'>Sign Up
                                 </Link>
                             </div>
                         </div>
 
 
-                        <span className="flex lg:ml-auto lg:mt- mt- sm:mx-20 w-full justify-center md:justify-start md:w-auto">
-                            {/* <div className='w-10 h-10 rounded-full bg-black'> */}
+                        <span className="flex lg:ml-auto lg:mt- mt- lg:mx-20  w-full justify-center md:w-auto">
+                            
                             <a href='/' className="my-auto mx-2 p-2 rounded-full bg-black">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" data-name="Ebene 1" viewBox="0 0 1024 1024" id="facebook-logo-2019"><path fill="#1877f2" d="M1024,512C1024,229.23016,794.76978,0,512,0S0,229.23016,0,512c0,255.554,187.231,467.37012,432,505.77777V660H302V512H432V399.2C432,270.87982,508.43854,200,625.38922,200,681.40765,200,740,210,740,210V336H675.43713C611.83508,336,592,375.46667,592,415.95728V512H734L711.3,660H592v357.77777C836.769,979.37012,1024,767.554,1024,512Z"></path><path fill="#fff" d="M711.3,660,734,512H592V415.95728C592,375.46667,611.83508,336,675.43713,336H740V210s-58.59235-10-114.61078-10C508.43854,200,432,270.87982,432,399.2V512H302V660H432v357.77777a517.39619,517.39619,0,0,0,160,0V660Z"></path></svg>
                             </a>
-                            {/* </div> */}
+                            
                             <a href='/' className="ml-3 my-auto mx-2 p-2 rounded-full bg-black">
                                 <svg xmlns="http://www.w3.org/2000/svg" width='25' viewBox="0 0 16 16" id="twitter"><path fill="#03A9F4" d="M16 3.539a6.839 6.839 0 0 1-1.89.518 3.262 3.262 0 0 0 1.443-1.813 6.555 6.555 0 0 1-2.08.794 3.28 3.28 0 0 0-5.674 2.243c0 .26.022.51.076.748a9.284 9.284 0 0 1-6.761-3.431 3.285 3.285 0 0 0 1.008 4.384A3.24 3.24 0 0 1 .64 6.578v.036a3.295 3.295 0 0 0 2.628 3.223 3.274 3.274 0 0 1-.86.108 2.9 2.9 0 0 1-.621-.056 3.311 3.311 0 0 0 3.065 2.285 6.59 6.59 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.234 9.234 0 0 0 5.032 15c6.036 0 9.336-5 9.336-9.334 0-.145-.005-.285-.012-.424A6.544 6.544 0 0 0 16 3.539z"></path></svg>
                             </a>
@@ -72,7 +72,7 @@ function Footer() {
                 </div>
 
 
-                <p className="text-gray-500 pb-7 sm:pt-0 pt-2 text-sm text-center">© 2023
+                <p className="text-gray-500 pb-7 lg:pt-0 pt-2 text-sm text-center">© 2023
                     <a href="/" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@UpBringing</a>
                 </p>
 

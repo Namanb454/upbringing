@@ -12,7 +12,7 @@ function Signup() {
                 <Navbar />
             </div>
             <div className=' ' >
-                <img className='relative sm:h-auto h-0 ' src='images/signupbg.png' alt='img' id='backgroundimg' />
+                <img className='relative lg:h-auto h-0 ' src='images/signupbg.png' alt='img' id='backgroundimg' />
                 {/* <div className=''> */}
                 <SignupCard />
                 {/* </div> */}

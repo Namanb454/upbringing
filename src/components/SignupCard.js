@@ -4,13 +4,13 @@ import { FcGoogle } from 'react-icons/fc';
 
 function SignupCard() {
     return (
-        <div className='sm:absolute sm:w-3/5 w-full sm:top-40 top-60 my- sm:mx-64' id='card1'>
-            <div className=' sm:w-3/4 mx-auto sm:my-10 sm:mb-10 py-10 sm:rounded-3xl' id='card2'>
-                <h2 className='sm:text-5xl text-4xl text-center sm:mx-20 mx-5 sm:mb-10 mb-10' id='signupHeading'>
+        <div className='lg:absolute lg:w-3/5 w-full lg:top-40 top-60 my- lg:mx-64' id='card1'>
+            <div className=' lg:w-3/4 mx-auto lg:my-10 lg:mb-10 py-10 lg:rounded-3xl' id='card2'>
+                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-10' id='signupHeading'>
                     We start the journey of
                     making your kid <span id='signupsubHeading'> ENGINEER</span>
                 </h2>
-                <h2 className='mx-20 sm:mb-0 mb-2 font-bold'>
+                <h2 className='mx-20 lg:mb-0 mb-2 font-bold'>
                     Create an account
                 </h2>
                 <div class="flex w-cover mx-20 items-end">
@@ -22,7 +22,7 @@ function SignupCard() {
                 <div className='w-full py-2'>
                     <h2 className='text-center'>or</h2>
                 </div>
-                <div className='text-center sm:mx-40 mx-20 pb-5'>
+                <div className='text-center lg:mx-40 mx-20 pb-5'>
 
                     <div className='flex  py-2 bg-white rounded-full'>
                         <button className='w-fit mx-auto' id='google'>
@@ -31,7 +31,7 @@ function SignupCard() {
                         </button>
                     </div>
                 </div>
-                <div class=" items-center pb-5 sm:mx-40 mx-20">
+                <div class=" items-center pb-5 lg:mx-40 mx-20">
                     <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
                     <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Help Us Improve the service by <b> giving us your few minutes on a call</b> </label>
                 </div>
