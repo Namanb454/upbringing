@@ -12,10 +12,10 @@ function Signup() {
                 <Navbar />
             </div>
             <div className=' ' >
-                <img className='relative lg:h-auto h-0 ' src='images/SignUpbg.png' alt='img' id='backgroundimg' />
-                {/* <div className=''> */}
+                <img className='lg:relative md:relative  lg:h-auto md:h-auto h-0 ' src='images/SignUpbg.png' alt='img' id='backgroundimg' />
+                <div className='md:mx-auto'>
                 <SignupCard />
-                {/* </div> */}
+                </div>
             </div>
             <div>
                 <Footer />

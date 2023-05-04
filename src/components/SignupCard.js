@@ -4,8 +4,8 @@ import { FcGoogle } from 'react-icons/fc';
 
 function SignupCard() {
     return (
-        <div className='lg:absolute lg:w-3/5 w-full lg:top-40 top-60 my- lg:mx-64' id='card1'>
-            <div className=' lg:w-3/4 mx-auto lg:my-10 lg:mb-10 py-10 lg:rounded-3xl' id='card2'>
+        <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-40 md:top-32 md:mx-24 lg:mx-64' id='card1'>
+            <div className=' lg:w-3/4 mx-auto lg:my-10 lg:mb-10 lg:py-10 md:py-5 lg:rounded-3xl' id='card2'>
                 <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-10' id='signupHeading'>
                     We start the journey of
                     making your kid <span id='signupsubHeading'> ENGINEER</span>
