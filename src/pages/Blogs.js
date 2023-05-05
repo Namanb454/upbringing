@@ -19,8 +19,8 @@ function Blogs() {
                     </div>
 
                 </div>
-                    <Cards />
             </div>
+                    <Cards />
 
             {/* <div> */}
             {/* </div> */}

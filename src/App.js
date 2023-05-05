@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Blogs from './pages/Blogs';
 import Signup from './pages/Signup';
 import Contact from './pages/Contact';
+import About from './pages/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
           <Route exact path="/blogs" element={<Blogs />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/contact" element={<Contact />} />

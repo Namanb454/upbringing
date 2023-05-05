@@ -34,14 +34,14 @@ function Main() {
                         <div>
 
 
-                            {/* <section class="flex  text-gray-600 body-font lg:py-16">
-                                <div class="container mb-10 bg-red-500 lg:w-3/5 md:w-3/4 lg:h-72 flex lg:mx-auto lg:px-16 lg:py-44 md:py-5 md:flex items-center">
+                            {/* <section className="flex  text-gray-600 body-font lg:py-16">
+                                <div className="container mb-10 bg-red-500 lg:w-3/5 md:w-3/4 lg:h-72 flex lg:mx-auto lg:px-16 lg:py-44 md:py-5 md:flex items-center">
                                     <div className='flex'>
-                                        <div class="lg:flex-grow  lg:pr- md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center lg:text-center text-left ">
-                                            <h1 class="title-font flex lg:text-center lg:mt-0 mt-10 mr-auto mx-5 text-left lg:text-7xl text-6xl lg:mb-4 font-medium text-white" id='group2heading'>The Mind</h1>
-                                            <p class="lg:mb-8 lg:text-start text-white  mx-5 leading-relaxed" id='group2text'>Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.</p>
+                                        <div className="lg:flex-grow  lg:pr- md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center lg:text-center text-left ">
+                                            <h1 className="title-font flex lg:text-center lg:mt-0 mt-10 mr-auto mx-5 text-left lg:text-7xl text-6xl lg:mb-4 font-medium text-white" id='group2heading'>The Mind</h1>
+                                            <p className="lg:mb-8 lg:text-start text-white  mx-5 leading-relaxed" id='group2text'>Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.</p>
                                         </div>
-                                        <img class="lg:w-48 w-20 lg:-mt-24 -mt-10 lg:h-80 h-40 object- object rounded" alt="hero" src="images/kid1.png" />
+                                        <img className="lg:w-48 w-20 lg:-mt-24 -mt-10 lg:h-80 h-40 object- object rounded" alt="hero" src="images/kid1.png" />
                                     </div>
                                 </div>
                             </section> */}

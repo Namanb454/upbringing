@@ -10,7 +10,7 @@ export default function Navbar() {
             <img src='images/Group1.png' id='logoImage' alt='img'/>
           </Link>
           <nav className="md:ml-16 md:mr-auto flex flex-wrap items-center text-base text-black font-semibold justify-center">
-            <Link to='/' className="mr-10 hover:text-gray-900">About Us</Link>
+            <Link to='/about' className="mr-10 hover:text-gray-900">About Us</Link>
             <Link to='/blogs' className="mr-10 hover:text-gray-900">Resources</Link>
             <Link to='/contact' className="mr-10 hover:text-gray-900">Contact Us</Link>
             

@@ -13,10 +13,10 @@ function SignupCard() {
                 <h2 className='mx-20 lg:mb-0 mb-2 font-bold'>
                     Create an account
                 </h2>
-                <div class="flex w-cover mx-20 items-end">
-                    <div class="relative w-full text-left">
-                        <label for="hero-field" class="leading-7 text-xs text-gray-500" >Email Address</label>
-                        <input type="email" id="email" placeholder='we saved a place for your email' name="email" class="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                <div className="flex w-cover mx-20 items-end">
+                    <div className="relative w-full text-left">
+                        <label for="hero-field" className="leading-7 text-xs text-gray-500" >Email Address</label>
+                        <input type="email" id="email" placeholder='we saved a place for your email' name="email" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                     </div>
                 </div>
                 <div className='w-full py-2'>
@@ -31,9 +31,9 @@ function SignupCard() {
                         </button>
                     </div>
                 </div>
-                <div class=" items-center pb-5 lg:mx-40 mx-20">
-                    <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Help Us Improve the service by <b> giving us your few minutes on a call</b> </label>
+                <div className=" items-center pb-5 lg:mx-40 mx-20">
+                    <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                    <label for="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Help Us Improve the service by <b> giving us your few minutes on a call</b> </label>
                 </div>
                 <div className='w-fit my-auto mx-auto'>
                     <button className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>Next

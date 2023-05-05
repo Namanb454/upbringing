@@ -17,7 +17,7 @@ function Footer() {
                     font-semibold text-center">
 
                         <div className="lg:w-1/3 md:w-1/3 w-full px-4">
-                            <a href='/' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>About Us</a>
+                            <a href='/about' className="title-font text-gray-900 tracking-widest text-sm mb-3" id='footerNav'>About Us</a>
 
                         </div>
                         <div className="lg:w-1/3 md:w-1/3 w-full px-4">
