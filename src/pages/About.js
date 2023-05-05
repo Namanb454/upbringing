@@ -33,7 +33,7 @@ function About() {
         <div className="carousel w-fit lg:h-96 md:h-96 h-60">
           <div id="item1" className="flex carousel-item  w-full">
             <img src="/images/about1.png" className="w-1/2" alt='img' />
-            <p className='w-1/2 lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:leading-8 md:leading-6 leading-4' id='about2'>We were inspired to start Up-bringing after watching the founder's sister struggle to find the right resources to support her child's growth and development. She realized that there was a need for a comprehensive, all-in-one solution that would not only provide parents with high-quality toys and resources, but also become a part of the journey by providing support and guidance parents need to raise happy, healthy, intelligent children.</p>
+            <p className='w-1/2 lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-xs lg:leading-8 md:leading-6 leading-4' id='about2'>We were inspired to start Up-bringing after watching the founder's sister struggle to find the right resources to support her child's growth and development. She realized that there was a need for a comprehensive, all-in-one solution that would not only provide parents with high-quality toys and resources, but also become a part of the journey by providing support and guidance parents need to raise happy, healthy, intelligent children.</p>
           </div>
           <div id="item2" className="flex carousel-item w-full">
             <img src="/images/about1.png" className="w-1/2" alt='img' />
