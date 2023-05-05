@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Main.css'
+import Explore from '../components/Explore'
 import { Link } from 'react-router-dom'
 
 function Main() {
@@ -22,8 +23,9 @@ function Main() {
                             <img className="object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
                         </div>
                     </div>
-
                 </div>
+
+               
 
                 {/* How we help kids  */}
 
@@ -31,9 +33,8 @@ function Main() {
                     <div className="lg:flex-grow  lg:pr- md:pr- flex flex-col md:mb-0 items-center text-center">
                         <h1 className="title-font lg:text-8xl md:text-7xl mx-auto lg:my-0 text-5xl mb-10 font-medium text-gray-900" id='heading'>How we help kIds
                         </h1>
+                        
                         <div>
-
-
                             {/* <section className="flex  text-gray-600 body-font lg:py-16">
                                 <div className="container mb-10 bg-red-500 lg:w-3/5 md:w-3/4 lg:h-72 flex lg:mx-auto lg:px-16 lg:py-44 md:py-5 md:flex items-center">
                                     <div className='flex'>
@@ -45,6 +46,11 @@ function Main() {
                                     </div>
                                 </div>
                             </section> */}
+                        </div>
+                        </div>
+                        </div>
+                        <div>
+                            <Explore/>
                         </div>
 
 
@@ -64,8 +70,7 @@ function Main() {
 
                             </div>
                         </div>
-                    </div>
-                </div>
+                   
 
 
                 {/* We help parents at child’s every step */}
