@@ -102,8 +102,8 @@ function Main() {
                         <h2 className='lg:top-20 lg:pt-10 pt-10 lg:text-6xl md:text-4xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
                         <p className="w- lg:text-xl md:text-base text-sm lg:mt-14 md:mt-10 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
-                        <div className='mx- w-fit lg:mt-16 md:mt-10 mt-7'>
-                            <Link to='/signup' className="bg-white text-black py-1 px-6 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
+                        <div className='mx- w-fit lg:mt-16 md:mt-10 mt-4'>
+                            <Link to='/signup' className="bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
                             </Link>
                         </div>
                     </div>
