@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Main.css'
 import Explore from '../components/Explore'
+import Explore1 from '../components/Explore1'
 import { Link } from 'react-router-dom'
 
 function Main() {
@@ -99,6 +100,8 @@ function Main() {
                     </div>
                 </div>
 
+
+                <Explore1/>
 
                 {/* Be first in the queue to experience the future of parenting */}
 

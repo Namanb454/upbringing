@@ -27,4 +27,34 @@
   ];
 
   
+  export const exploreWorlds1 = [
+    {
+        id: 'world-1',
+        imgUrl: '/planet-01.png',
+        img: 'images/parent1.png',
+        title: 'PART OF GROWTH',
+        desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
+        prompt: 'Learn more'
+    },
+    {
+        id: 'world-2',
+        imgUrl: '/planet-02.png',
+        img: 'images/parent1.png',
+        title: 'Increasing Knowledge Quantum',
+        desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+        prompt: 'Read more'
+    },
+    {
+        id: 'world-6',
+        imgUrl: '/planet-03.png',
+        img: 'images/parent1.png',
+        title: 'A community of Parents',
+        desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+        prompt: 'Coming Soon'
+    },
+
+];
+
+
+
 

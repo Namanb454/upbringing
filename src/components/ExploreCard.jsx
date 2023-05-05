@@ -32,7 +32,7 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
             className="object-contain"
           />
         </div>
-        <h2 className={`${styles.fontFamily="Urbanist"} mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white`}>
+        <h2 className={`${styles.fontFamily = "Urbanist"} mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white`}>
           {title}
         </h2>
         <p className='text-white'>{desc}</p>
