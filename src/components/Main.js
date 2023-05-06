@@ -47,7 +47,7 @@ function Main() {
 
                     <img className="lg:w- md:w- object-cover lg:h-full h-full object-center rounded-lg md:mt-0 mt-" src="images/Group3.png" alt="step" />
                     <div className='absolute lg:top-16 md:top-10 top-10 lg:text-7xl md:text-5xl mx-auto text-xl text-white w-full' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
-                    <p className="absolute w- lg:top-64 md:top-40 top-36 lg:text-xl md:text-lg text-sm text-white text-center font-normal lg:mx-44" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child'simagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
+                    <p className="absolute w- lg:top-64 md:top-40 top-36 lg:text-xl md:text-lg text-sm text-white text-center font-normal lg:mx-40" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child'simagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
                         valuable parenting skills through a fun and interactive gamified approach.</p>
 
                     <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-full'>
@@ -99,12 +99,12 @@ function Main() {
 
                 {/* Be first in the queue to experience the future of parenting */}
 
-                <div className='flex w-fit lg:mx-5 lg:h-96 md:h-80 h-80 pb-10' id='group6'>
+                <div className='flex w-fit lg:mx- lg:h-96 md:h-80 h-80 pb-10' id='group6'>
                     <div className='w- lg:ml-20 md:ml-10 mx-5'>
-                        <h2 className='lg:top-20 lg:pt-10 pt-10 lg:text-6xl md:text-4xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
-                        <p className="w- lg:text-xl md:text-base text-sm lg:mt-14 md:mt-10 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
+                        <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-4xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
+                        <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-10 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
-                        <div className='mx- w-fit lg:mt-16 md:mt-10 mt-4'>
+                        <div className='mx- w-fit lg:mt-5 md:mt-10 mt-4'>
                             <Link to='/signup' className="bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
                             </Link>
                         </div>
