@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../About.css'
-import { values } from '../constants/aboutcontent';
+// import { values } from '../constants/aboutcontent';
 
 function About() {
 
@@ -74,7 +74,7 @@ function About() {
 
 
 
-      <div className="lg:grid md:grid lg:grid-cols-2 md:grid-cols-2 -gap-80 items-center lg:px-10" id='bgcolor'>
+      {/* <div className="lg:grid md:grid lg:grid-cols-2 md:grid-cols-2 -gap-80 items-center lg:px-10" id='bgcolor'>
         {values.map((data) =>
           <div className='lg:mx-5 md:mx-5 text-black text-start border-black hover:text-white mb-10 ' >
             <div className=" lg:h-screen md:h-96 group lg:py-16 md:py-16 transition transform hover:-translate-y-10 motion-reduce:transition-none motion-reduce:hover:transform-none  hover:bg-blue-950" id='ourValues' key={data.id} >
@@ -98,7 +98,7 @@ function About() {
           </div>
 
         )}
-      </div>
+      </div> */}
 
 
 

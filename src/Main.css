@@ -12,7 +12,7 @@
 
 
 #heading{
-font-family: 'Sunny Spells';
+/* font-family: 'Sunny Spells'; */
 font-style: normal;
 font-weight: 400;
 text-align: center;
@@ -20,7 +20,7 @@ color: #0D1F4C;
 }
 
 #group2heading{
-    font-family: 'Sunny Spells';
+    /* font-family: 'Sunny Spells'; */
 }
 #group2text{
     font-family: 'Urbanist'
@@ -32,7 +32,7 @@ color: #0D1F4C;
 }
 
 #group3heading{
-    font-family: 'Sunny Spells';
+    /* font-family: 'Sunny Spells'; */
 }
 
 #group3text{
@@ -55,10 +55,10 @@ color: #0D1F4C;
 }
 
 #group6heading{
-    font-family: 'Sunny Spells';
+    /* font-family: 'Sunny Spells'; */
 }
 
 #group5heading{
-    font-family: 'Sunny Spells';
+    /* font-family: 'Sunny Spells'; */
     color: #FBBB4D;
 }
