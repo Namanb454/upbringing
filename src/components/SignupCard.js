@@ -1,11 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../signupcard.css'
 import { FcGoogle } from 'react-icons/fc';
 
 function SignupCard() {
     return (
-        <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-40 md:top-32 md:mx-24 lg:mx-64' id='card1'>
-            <div className=' lg:w-3/4 mx-auto lg:my-10 lg:mb-10 lg:py-10 md:py-5 lg:rounded-3xl' id='card2'>
+        <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-32 md:mx-24 lg:mx-64' id='card1'>
+
+            <div className=' lg:w-3/4 mx-auto lg:my-5 lg:mb-10 lg:py-0 md:py-5 lg:rounded-3xl' id='card2'>
+                <div className="container mx-auto flex flex-wrap py-5 flex-col items-center">
+                    <Link to='/' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <img src='images/Group1.png' id='logoImage' alt='img' />
+                    </Link>
+                </div>
                 <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-10' id='signupHeading'>
                     We start the journey of
                     making your kid <span id='signupsubHeading'> ENGINEER</span>
