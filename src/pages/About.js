@@ -17,7 +17,7 @@ function About() {
         <div className="container lg:mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
             <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>OUR STORY</h2>
-            <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-4xl lg:mb-10 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>Tales Enrich
+            <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-10 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>Tales Enrich
 
               <br />
               <div className="">our Innovation</div>
@@ -61,7 +61,7 @@ function About() {
       <div className="container lg:mx-auto md:mx-auto flex lg:py-10 md:py-10 py-10 flex-col items-center" id='bgcolor'>
         <div className="lg:flex-grow md:w-1/2 lg:my-20 md:my-20 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
           <h2 className=' lg:text-xl md:text-xl mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>OUR VALUES</h2>
-          <h1 className="title-font lg:text-8xl md:text-7xl mx-auto text-4xl mb-10 font-medium text-gray-900" id='about2heading'>We believe that children
+          <h1 className="title-font lg:text-8xl md:text-7xl mx-auto text-5xl mb-10 font-medium text-gray-900" id='about2heading'>We believe that children
 
             <br />
             <div className=""> learn best through play</div>
