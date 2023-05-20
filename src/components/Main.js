@@ -12,7 +12,7 @@ function Main() {
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px- py-10 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
-                        <h1 className="title-font lg:text-8xl md:text-7xl mx-auto text-4xl mb-10 font-medium text-gray-900" id='heading'>We Bring out The best
+                        <h1 className="title-font lg:text-8xl md:text-7xl text-5xl mx-auto mb-10 font-medium text-gray-900" id='heading'>We Bring out The best
                             <br />
                             <div className="">in You and Your kids</div>
                         </h1>
@@ -30,10 +30,10 @@ function Main() {
 
                 {/* How we help kids  */}
 
-                <div className="container lg:mx-auto flex lg:my-10 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
+                <div className="container lg:mx-auto flex lg:mt-10 md:mt-10 lg:py-0 md:py-0 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
                         <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>THE KIDS</h2>
-                        <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-4xl lg:mb-0 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>How we help kIds
+                        <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-0 mb-10 font-medium text-gray-900" id='about2heading'>How we help kIds
                         </h1>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ function Main() {
                         <div id='' className='relative lg:h-auto h-96 text-center' >
 
                             <img className="lg:w- md:w-full object-cover lg:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
-                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-2xl text w-full' id='group5heading'>We help parents at child’s every step</div>
+                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-full' id='group5heading'>We help parents at child’s every step</div>
                             <p className="absolute w-full lg:top-44 md:top-20 top-20 lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
                             <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-full'>
@@ -88,10 +88,10 @@ function Main() {
                 </div>
 
 
-                <div className="container lg:mx-auto flex lg:my-10 lg:mt-24 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
+                <div className="container lg:mx-auto flex lg:mt-10 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
                         <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>THE PARENTS</h2>
-                        <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-4xl lg:mb-0 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>How we help Parents 
+                        <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>How we help Parents
                         </h1>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ function Main() {
 
                 <div className='flex w-fit lg:mx- lg:h-96 md:h-80 h-80 pb-10' id='group6'>
                     <div className='w- lg:ml-20 md:ml-10 mx-5'>
-                        <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-4xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
+                        <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
                         <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-10 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
                         <div className='mx- w-fit lg:mt-5 md:mt-10 mt-4'>

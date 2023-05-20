@@ -1,30 +1,57 @@
-  export const exploreWorlds = [
-    {
-      id: 'world-1',
-      imgUrl: '/planet-01.png',
-      img: '/more.png',
-      title: 'Eat more plants',
-      desc: 'Shifting to a sustainable diet is a simple way to lighten your climate impact.',
-      prompt: 'Learn more'
-    },
-    {
-      id: 'world-2',
-      imgUrl: '/planet-02.png',
-      img: '/fruits.png',
-      title: 'Waste Less Food',
-      desc:'We can all make food choices that reduce waste. Learn how you can the most of your ingredients.',
-      prompt: 'Read more'
-    },
-    {
-      id: 'world-3',
-      imgUrl: '/planet-03.png',
-      img: '/plants.png',
-      title: 'Try new things',
-      desc:'Let experiment with new and interesting ingredients - and ways of producing them.',
-      prompt: 'Coming Soon'
-    },
+export const exploreWorlds = [
+  {
+    id: 'world-1',
+    imgUrl: '/planet-01.png',
+    img: 'images/kid1.png',
+    title: 'The Mind',
+    desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+    prompt: 'Read more'
+  },
+  {
+    id: 'world-2',
+    imgUrl: '/planet-02.png',
+    img: 'images/kid2.png',
+    title: 'The Body',
+    desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+    prompt: 'Read more'
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/planet-03.png',
+    img: 'images/kid1.png',
+    title: 'The Ethics',
+    desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+    prompt: 'Read more'
+  },
 
-  ];
+];
+export const exploreWorlds1 = [
+  {
+    id: 'world-1',
+    imgUrl: '/planet-01.png',
+    img: 'images/parent1.png',
+    title: 'PART OF GROWTH',
+    desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
+    prompt: 'Read more'
+  },
+  {
+    id: 'world-2',
+    imgUrl: '/planet-02.png',
+    img: 'images/parent1.png',
+    title: 'Increasing Knowledge Quantum',
+    desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
+    prompt: 'Read more'
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/planet-03.png',
+    img: 'images/parent1.png',
+    title: 'A community of Parents',
+    desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
+    prompt: 'Read more'
+  },
 
-  
+];
+
+
 

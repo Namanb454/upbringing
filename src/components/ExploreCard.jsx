@@ -1,44 +1,58 @@
 'use client';
+import '../Main.css'
+
 
 import { motion } from 'framer-motion';
-import styles from '../styles/styles';
 import { fadeIn } from '../utils/motion';
 
 const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, handleClick }) => (
   <motion.div
-    variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-    className={`relative ${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
-      } flex items-center justify-center min-w-[250px] h-[300px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+    variants={fadeIn('right', 'spring', index * 0.5, 0.5)}
+    className={`relative ${active === id ? 'lg:flex-[3.5] md:flex-[3.5] flex-[7] lg:h-[320px] md:h-[200px] lg:-mt-7' : 'lg:flex-[0.5] flex-[2] lg:h-[270px]'
+      } flex items-center justify-center min-w-[250px] h-[300px] transition-[flex] duration-[0.5s] ease-linear cursor-pointer`}
     onClick={() => handleClick(id)}
   >
+
     <img
       src={imgUrl}
       alt="planet-04"
-      className="absolute w-full h-full object-cover "
+      className="absolute w-full h-full"
     />
+
     {/* <p className='text-white'>{desc}</p> */}
     {active !== id ? (
-      <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-30 lg:origin-[0,0]">
-        {title}
+
+      <h3 className="w-full lg:text-4xl md:text-4xl text-2xl text-white absolute z-0 lg:bottom-48 md:bottom-auto lg:origin-[0,0]">
+        <p className='text-left lg:mx-5 md:mx-5 mx-5 lg:h-10 md:h-10' id='group2heading'>
+          {title}
+        </p>
+        <p className='w-full lg:top-48 lg:mx-5 md:mx-5 mx-5 lg:text-sm md:text-xs text-xs lg:absolute md:absolute lg:z-0 leading-[20.16px] text-white ' id='group2text'>
+          {prompt}
+        </p>
       </h3>
+
+
+
     ) : (
-      <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col rounded-b-[24px]">
-        <div
-          className={`${styles.flexCenter} w-[120px] h-[120px] rounded-[24px] glassmorphism mb-[16px]`}
+
+      <div dir='rtl' className="absolute lg:bottom-[-40px] p-10 flex justify-start w-full flex-col rounded-b-[24px]" >
+        <h2 className="lg:w-96 text-left mr-auto sm:text-[32px] lg:text-5xl md:text-6xl text-4xl text-white" id='group2heading'>
+          {title}
+        </h2>
+        <div dir='rtl'
+          className={`flex items-center inset-y-0 right-0 w-[150px] h-[100px] rounded-[24px] glassmorphism mb-[-45px]`}
         >
+
           <img
             src={img}
             alt="headset"
-            className="object-contain"
+            className="object-contain lg:mb-56 md:mb-20 mb-40 lg:w-[150px] md:w-[150px] w-[100px]"
           />
         </div>
-        <h2 className={`${styles.fontFamily = "Urbanist"} mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white`}>
-          {title}
-        </h2>
-        <p className='text-white'>{desc}</p>
-        <p className="font-normal text-[16px] leading-[20.16px] mt-10 text-white ">
-          {prompt}
-        </p>
+        <div className='lg:w-[400px] md:w-[400px] w-full mr-auto'>
+          <p className='text-white mb-10 lg:text-base md:text-base text-sm text-left mr-auto' id='group2text'>{desc}</p>
+
+        </div>
       </div>
     )}
   </motion.div>
