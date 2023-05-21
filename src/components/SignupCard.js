@@ -1,9 +1,20 @@
-import React from 'react'
+import { React, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../signupcard.css'
 import { FcGoogle } from 'react-icons/fc';
 
 function SignupCard() {
+    const carriers = [
+        'Engineer', 'Doctor', 'Pilot', 'Teacher', 'Lawyer', 'Police'
+    ]
+    const [index, setIndex] = useState(0)
+  useEffect(() => {
+    if (index === carriers.length - 1) return
+    setTimeout(() => {
+      setIndex(index + 1)
+    }, 1000);
+  },)
+
     return (
         <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-0 top-0 md:mx-24 lg:mx-64' id='card1'>
 
@@ -15,7 +26,7 @@ function SignupCard() {
                 </div>
                 <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-20' id='signupHeading'>
                     We start the journey of
-                    making your kid <span id='signupsubHeading'> ENGINEER</span>
+                    making your kid <span id='signupsubHeading'> {carriers[index]}</span>
                 </h2>
                 <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
                     Create an account
