@@ -3,7 +3,9 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../About.css'
 import { values } from '../constants/aboutcontent';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 function About() {
 
 
@@ -16,14 +18,39 @@ function About() {
       <div id='bgcolor'>
         <div className="container lg:mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
-            <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>OUR STORY</h2>
-            <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-10 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>Tales Enrich
+            <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' data-aos="zoom-out" data-aos-delay="200"id='about1heading'>OUR STORY</h2>
+            <div className='flex mx-auto'>
 
-              <br />
-              <div className="">our Innovation</div>
-            </h1>
-            <p className="w-fit text-black text-center lg:text-lg md:text-lg text-base lg:mx-44 md:mx-14 mx-0 font-normal lg:leading-9" id='about1'>At Up-bringing, we believe that every child deserves the opportunity to grow up happy, healthy, and confident. We understand that being a parent can be a challenging and overwhelming experience, and we want to make it easier for parents to provide their children with the best possible start in life.</p>
-            <div className='w-full'>
+              <div className='lg:pl-10 md:pl-0 h-0 lg:mt-5 md:mt-5 mt-2'>
+                <img className='lg:w-32 md:w-24 w-14' data-aos="fade-up" data-aos-delay="200" src='images/book2.png' alt='img' />
+              </div>
+
+              <div className='lg:-ml-24 md:-ml-24 lg:mr-28 md:mr-28 -ml-10 h-0 mt-0'>
+                <img className='lg:w-32 md:w-24 w-14' data-aos="fade-down" data-aos-delay="200" src='images/book1.png' alt='img' />
+              </div>
+
+              <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-10 md:mb-10 mb-10 font-medium text-gray-900" data-aos="zoom-in" data-aos-delay="400" id='about2heading'>Tales Enrich
+
+                <br />
+                <div className="">our Innovation</div>
+              </h1>
+
+              <div className='lg:-mr-24 md:-mr-24 lg:ml-28 md:ml-28 -mr-10 h-0 lg:mt-28 md:mt-28 mt-20'>
+                <img className='lg:w-32 md:w-24 w-14' data-aos="fade-up" data-aos-delay="200" src='images/book4.png' alt='img' />
+              </div>
+
+              <div className='lg:pr-10 md:pr-0 h-0 lg:mt-[90px] md:mt-[95px] mt-[70px]'>
+                <img className='lg:w-32 md:w-24 w-14' data-aos="fade-down" data-aos-delay="200" src='images/book3.png' alt='img' />
+              </div>
+            </div>
+            <p className="w-fit text-black text-center lg:text-lg md:text-lg text-base lg:mx-44 md:mx-14 mx-0 font-normal lg:leading-9" id='about1' data-aos="zoom-in-up"
+
+              // data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+            // data-aos-offset="0"
+            >
+              At Up-bringing, we believe that every child deserves the opportunity to grow up happy, healthy, and confident. We understand that being a parent can be a challenging and overwhelming experience, and we want to make it easier for parents to provide their children with the best possible start in life.</p>
+            <div className='w-full' data-aos="zoom-in" data-aos-delay="200">
               <img className="object-cover object-center lg:mx-auto rounded-lg md:mt-0 mb-10" src="images/Group8.png" alt="img" />
             </div>
           </div>
@@ -33,7 +60,7 @@ function About() {
         <div className="carousel w-fit lg:h-96 md:h-96 h-60">
           <div id="item1" className="flex carousel-item  w-full">
             <img src="/images/about1.png" className="w-1/2" alt='img' />
-            <p className='w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-xs lg:leading-8 md:leading-6 leading-4' id='about2'>We were inspired to start Up-bringing after watching the founder's sister struggle to find the right resources to support her child's growth and development. She realized that there was a need for a comprehensive, all-in-one solution that would not only provide parents with high-quality toys and resources, but also become a part of the journey by providing support and guidance parents need to raise happy, healthy, intelligent children.</p>
+            <p className='w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-xs lg:leading-8 md:leading-6 leading-4' id='about2' >We were inspired to start Up-bringing after watching the founder's sister struggle to find the right resources to support her child's growth and development. She realized that there was a need for a comprehensive, all-in-one solution that would not only provide parents with high-quality toys and resources, but also become a part of the journey by providing support and guidance parents need to raise happy, healthy, intelligent children.</p>
           </div>
           <div id="item2" className="flex carousel-item w-full">
             <img src="/images/about1.png" className="w-1/2" alt='img' />

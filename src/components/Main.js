@@ -1,25 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react';
 import '../Main.css'
 import Explore from '../components/Explore'
 import Explore1 from '../components/Explore1'
 import { Link } from 'react-router-dom'
 
 function Main() {
+    const [ismoving, setIsmoving] = useState(false)
+    function handleMouseEnter() {
+        setIsmoving(true);
+    }
     return (
-        <div className='' id='main' >
+        <div className='w-full' id='main' >
 
 
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px- py-10 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
-                        <h1 className="title-font lg:text-8xl md:text-7xl text-5xl mx-auto mb-10 font-medium text-gray-900" id='heading'>We Bring out The best
-                            <br />
-                            <div className="">in You and Your kids</div>
-                        </h1>
+                        <div className='flex mx-auto'>
+                            <div className='lg:pr-10 h-0 lg:mt-32 md:mt-32 mt-24'>
+                                <img className='lg:w-14 md:w-14 w-10' data-aos="fade-up" data-aos-delay="200" src='images/icon2.png' alt='img' />
+                            </div>
+                            <div className='lg:pr-5 md:-ml-10 -ml-10 h-0 mt-10'>
+                                <img className='lg:w-20 md:w-20 w-10' data-aos="fade-down" data-aos-delay="200" src='images/icon1.png' alt='img' />
+                            </div>
+                            <h1 className="title-font lg:text-8xl md:text-7xl text-[40px] mx-auto mb-10 font-medium text-gray-900" data-aos="fade-zoom-in" data-aos-delay="400" id='heading'>We Bring out The best
+                                <br />
+                                <div className="">in You and Your kids</div>
+                            </h1>
+                            <div className='lg:pr-5 md:-mr-10 -mr-10 h-0 lg:mt-28 md:mt-28 mt-24'>
+                                <img className='lg:w-20 md:w-20 w-10' data-aos="fade-up" data-aos-delay="200" src='images/icon4.png' alt='img' />
+                            </div>
+                            <div className='lg:pl-10 h-0 mt-0'>
+                                <img className='lg:w-14 md:w-14 w-10' data-aos="fade-down" data-aos-delay="200" src='images/icon3.png' alt='img' />
+                            </div>
+                        </div>
                         <p className="mb-8 text-black text-center font-bold leading-9" id='main1'>By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
 
-                        <button className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
-                        </button>
+                        <Link to='/signup' className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
+                        </Link>
                         <div className='w-full'>
                             <img className="object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
                         </div>
@@ -53,8 +71,8 @@ function Main() {
                     <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-full'>
                         <button className="mx-5 bg-black text-white py-1 px-6 focus:outline-none hover:bg-white hover:text-black m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
                         </button>
-                        <button className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
-                        </button>
+                        <Link to='/signup' className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
+                        </Link>
 
                     </div>
                 </div>
@@ -72,8 +90,7 @@ function Main() {
                             <p className="absolute w-full lg:top-44 md:top-20 top-20 lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
                             <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-full'>
-
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" id='button1'>Infant-2year
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
                                 </button>
                                 <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>02-05
                                 </button>
@@ -81,14 +98,16 @@ function Main() {
                                 </button>
                                 <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>08+
                                 </button>
-
+                            </div>
+                            <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-52 bottom-44 w-full'>
+                                <img className={`w-64 ${ismoving ? "ml-[100px]" : "mx-0"}`} src='images/Group 5Train.png' alt='img' />
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div className="container lg:mx-auto flex lg:mt-10 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
+                <div className="container lg:mx-auto flex lg:mt-20 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
                         <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>THE PARENTS</h2>
                         <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>How we help Parents

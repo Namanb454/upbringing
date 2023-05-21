@@ -10,9 +10,9 @@ function Signup() {
     return (
         <div>
             
-            <div className=' ' >
+            <div className='lg:h-[10px] my-0 '>
 
-                <img className='lg:relative md:relative lg:h-auto md:h-auto h-0 ' src='images/SignUpbg.png' alt='img' id='backgroundimg' />
+                <img className='lg:relative md:relative lg:w-full lg:h-[100vh] md:h-[60vh] h-0 ' src='images/SignUpbg.png' alt='img' id='backgroundimg' />
                 <div className='md:mx-auto'>
                     <SignupCard />
                 </div>

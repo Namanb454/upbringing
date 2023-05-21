@@ -5,19 +5,19 @@ import { FcGoogle } from 'react-icons/fc';
 
 function SignupCard() {
     return (
-        <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-32 md:mx-24 lg:mx-64' id='card1'>
+        <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-0 top-0 md:mx-24 lg:mx-64' id='card1'>
 
-            <div className=' lg:w-3/4 mx-auto lg:my-5 lg:mb-10 lg:py-0 md:py-5 lg:rounded-3xl' id='card2'>
+            <div className='lg:h-[95vh] md:h-[50vh] h-[100vh] lg:w-3/4 mx-auto lg:my-4 mb-0 lg:py-0 md:py-0 lg:rounded-3xl' id='card2'>
                 <div className="container mx-auto flex flex-wrap py-5 flex-col items-center">
-                    <Link to='/' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <Link to='/' className="flex title-font font-medium items-center text-gray-900 mb-10 md:mb-0">
                         <img src='images/Group1.png' id='logoImage' alt='img' />
                     </Link>
                 </div>
-                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-10' id='signupHeading'>
+                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-20' id='signupHeading'>
                     We start the journey of
                     making your kid <span id='signupsubHeading'> ENGINEER</span>
                 </h2>
-                <h2 className='mx-20 lg:mb-0 mb-2 font-bold'>
+                <h2 className='mx-20 lg:mb-0 mb-5 font-bold'>
                     Create an account
                 </h2>
                 <div className="flex w-cover mx-20 items-end">
@@ -26,7 +26,7 @@ function SignupCard() {
                         <input type="email" id="email" placeholder='we saved a place for your email' name="email" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                     </div>
                 </div>
-                <div className='w-full py-2'>
+                <div className='w-full py-5'>
                     <h2 className='text-center'>or</h2>
                 </div>
                 <div className='text-center lg:mx-40 mx-20 pb-5'>
