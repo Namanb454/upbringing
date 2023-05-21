@@ -90,17 +90,17 @@ function Main() {
                             <p className="absolute w-full lg:top-44 md:top-20 top-20 lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
                             <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-full'>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
                                 </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>02-05
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>02-05
                                 </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>05-08
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>05-08
                                 </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>08+
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>08+
                                 </button>
                             </div>
-                            <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-52 bottom-44 w-full'>
-                                <img className={`w-64 ${ismoving ? "ml-[100px]" : "mx-0"}`} src='images/Group 5Train.png' alt='img' />
+                            <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-32 bottom-[132px] w-full'>
+                                <img className={`lg:w-64 md:w-48 w-32 ${ismoving ? "ml-[100px]" : "mx-0"}`} src='images/Group 5Train.png' alt='img' />
                             </div>
                         </div>
                     </div>
@@ -121,9 +121,9 @@ function Main() {
                 <div className='flex w-fit lg:mx- lg:h-96 md:h-80 h-80 pb-10' id='group6'>
                     <div className='w- lg:ml-20 md:ml-10 mx-5'>
                         <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
-                        <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-10 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
+                        <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
-                        <div className='mx- w-fit lg:mt-5 md:mt-10 mt-4'>
+                        <div className='mx- w-fit lg:mt-5 md:mt-5 mt-4'>
                             <Link to='/signup' className="bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
                             </Link>
                         </div>
