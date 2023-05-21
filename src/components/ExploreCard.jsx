@@ -35,8 +35,8 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
 
     ) : (
 
-      <div dir='rtl' className="absolute lg:bottom-[-40px] p-10 flex justify-start w-full flex-col rounded-b-[24px]" >
-        <h2 className="lg:w-96 text-left mr-auto sm:text-[32px] lg:text-5xl md:text-6xl text-4xl text-white" id='group2heading'>
+      <div dir='rtl' className="absolute lg:bottom-[-40px] lg:p-10 md:p-10 p-10 flex justify-start w-full flex-col rounded-b-[24px]" >
+        <h2 className="lg:w-96 text-left lg:mr-40 md:mr-40 mr-10 lg:text-5xl md:text-6xl text-3xl text-white" id='group2heading'>
           {title}
         </h2>
         <div dir='rtl'
@@ -46,7 +46,7 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
           <img
             src={img}
             alt="headset"
-            className="object-contain lg:mb-56 md:mb-20 mb-40 lg:w-[150px] md:w-[150px] w-[100px]"
+            className="object-contain lg:mx-0 -mx-10 lg:mb-56 md:mb-20 mb-40 lg:w-[150px] md:w-[150px] w-[100px]"
           />
         </div>
         <div className='lg:w-[400px] md:w-[400px] w-full mr-auto'>
