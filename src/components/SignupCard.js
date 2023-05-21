@@ -17,7 +17,7 @@ function SignupCard() {
                     We start the journey of
                     making your kid <span id='signupsubHeading'> ENGINEER</span>
                 </h2>
-                <h2 className='mx-20 lg:mb-0 mb-5 font-bold'>
+                <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
                     Create an account
                 </h2>
                 <div className="flex w-cover mx-20 items-end">
@@ -27,11 +27,11 @@ function SignupCard() {
                     </div>
                 </div>
                 <div className='w-full py-5'>
-                    <h2 className='text-center'>or</h2>
+                    <h2 className='text-center text-black'>or</h2>
                 </div>
                 <div className='text-center lg:mx-40 mx-20 pb-5'>
 
-                    <div className='flex  py-2 bg-white rounded-full'>
+                    <div className='flex  py-2 bg-white text-black rounded-full'>
                         <button className='w-fit mx-auto' id='google'>
                             <FcGoogle className='mx-2 w-5 h-5' id='googlelogo' />
                             <span>Continue with Google</span>
