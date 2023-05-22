@@ -50,7 +50,7 @@ function About() {
             // data-aos-offset="0"
             >
               At Up-bringing, we believe that every child deserves the opportunity to grow up happy, healthy, and confident. We understand that being a parent can be a challenging and overwhelming experience, and we want to make it easier for parents to provide their children with the best possible start in life.</p>
-            <div className='w-full' data-aos="zoom-in" data-aos-delay="200">
+            <div className='w-[100%]' data-aos="zoom-in" data-aos-delay="200">
               <img className="object-cover object-center lg:mx-auto rounded-lg md:mt-0 mb-10" src="images/Group8.png" alt="img" />
             </div>
           </div>
@@ -58,24 +58,24 @@ function About() {
 
         {/* carousel */}
         <div className="carousel w-fit lg:h-96 md:h-96 h-60">
-          <div id="item1" className="flex carousel-item  w-full">
+          <div id="item1" className="flex carousel-item  w-[100%]">
             <img src="/images/about1.png" className="w-1/2" alt='img' />
             <p className='w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-xs lg:leading-8 md:leading-6 leading-4' id='about2' >We were inspired to start Up-bringing after watching the founder's sister struggle to find the right resources to support her child's growth and development. She realized that there was a need for a comprehensive, all-in-one solution that would not only provide parents with high-quality toys and resources, but also become a part of the journey by providing support and guidance parents need to raise happy, healthy, intelligent children.</p>
           </div>
-          <div id="item2" className="flex carousel-item w-full">
+          <div id="item2" className="flex carousel-item w-[100%]">
             <img src="/images/about1.png" className="w-1/2" alt='img' />
             <p>naman</p>
           </div>
-          <div id="item3" className="flex carousel-item w-full">
+          <div id="item3" className="flex carousel-item w-[100%]">
             <img src="/images/about1.png" className="w-1/2" alt='img' />
             <p>naman</p>
           </div>
-          <div id="item4" className="flex carousel-item w-full">
+          <div id="item4" className="flex carousel-item w-[100%]">
             <img src="/images/about1.png" className="w-1/2" alt='img' />
             <p>naman</p>
           </div>
         </div>
-        <div className="flex justify-center w-full lg:py-2 md:py-2 py-2 gap-2">
+        <div className="flex justify-center w-[100%] lg:py-2 md:py-2 py-2 gap-2">
           <a href="#item1" className="btn btn-xs">1</a>
           <a href="#item2" className="btn btn-xs">2</a>
           <a href="#item3" className="btn btn-xs">3</a>
@@ -94,7 +94,7 @@ function About() {
             <div className=""> learn best through play</div>
           </h1>
           <p className="w-fit text-black text-center lg:text-lg lg:mx-60 md:mx-20 mx-0 font-normal leading-9" id='about1'>These values guide everything we do at up-bringing, and we're committed to upholding them in all aspects of our business."</p>
-          <div className='w-full'>
+          <div className='w-[100%]'>
           </div>
         </div>
       </div>
@@ -109,8 +109,8 @@ function About() {
 
                 <h2 className=' lg:text-5xl md:text-2xl text-2xl ml-10 font-bold lg:mb-40 md:mb-20' >{data.title}</h2>
                 <div className="relative w-40 h-full">
-                  <div className="w-full h-32">
-                    <div className="transition-all transform translate-y-8 w-full h-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+                  <div className="w-[100%] h-32">
+                    <div className="transition-all transform translate-y-8 w-[100%] h-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
 
                       <p className="text-sm  text-white">
                         <img className="absolute inset-0 object-cover mx-auto w-32 h-32 group-hover:opacity-"

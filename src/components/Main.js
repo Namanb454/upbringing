@@ -10,10 +10,10 @@ function Main() {
         setIsmoving(true);
     }
     return (
-        <div className='w-full' id='main' >
+        <div className='w-[100%]' id='main' >
 
 
-            <section className="text-gray-600 body-font">
+            <section className="w-[100%] text-gray-600 body-font">
                 <div className="container mx-auto flex px- py-10 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
                         <div className='flex mx-auto'>
@@ -38,8 +38,8 @@ function Main() {
 
                         <Link to='/signup' className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </Link>
-                        <div className='w-full'>
-                            <img className="object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
+                        <div className='w-[100%]'>
+                            <img className="w-full object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
                         </div>
                     </div>
                 </div>
@@ -82,14 +82,14 @@ function Main() {
                 {/* We help parents at child’s every step */}
 
                 <div className="container mx-auto flex items-center">
-                    <div className="lg:flex-grow w-full lg:pr- md:pr- flex flex-col  mb-16 md:mb-0 text-center">
+                    <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col  mb-16 md:mb-0 text-center">
                         <div id='' className='relative lg:h-auto h-96 text-center' >
 
-                            <img className="lg:w- md:w-full object-cover lg:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
-                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-full' id='group5heading'>We help parents at child’s every step</div>
-                            <p className="absolute w-full lg:top-44 md:top-20 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
+                            <img className="lg:w- md:w-[100%] object-cover lg:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
+                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-[100%]' id='group5heading'>We help parents at child’s every step</div>
+                            <p className="absolute w-[100%] lg:top-44 md:top-20 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
-                            <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-full'>
+                            <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-[100%]'>
                                 <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
                                 </button>
                                 <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>02-05
@@ -99,8 +99,8 @@ function Main() {
                                 <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>08+
                                 </button>
                             </div>
-                            <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-32 bottom-[132px] w-full'>
-                                <img className={`lg:w-64 md:w-48 w-32 ${ismoving ? "ml-[100px]" : "mx-0"}`} src='images/Group 5Train.png' alt='img' />
+                            <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-32 bottom-[132px] w-[100%]'>
+                                <img className={`lg:w-64 md:w-48 w-32 ${ismoving ? "ml-[100px]" : "mx-0"}`} src='images/Group5Train.png' alt='img' />
                             </div>
                         </div>
                     </div>

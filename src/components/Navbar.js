@@ -6,11 +6,11 @@ export default function Navbar() {
   return (
     <div className='w-[100%]' id='nav'>
 
-      <header className="text-gray-600 body-font">
+      <header className="w-full text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <div className="flex lg:w-fit md:w-full w-full items-center justify-between md:py-4 py-2">
             <Link to='/' className="flex title-font font-medium items-start text-gray-900 mb-4 md:mb-0">
-              <img src='images/Group1.png' id='logoImage' alt='img' />
+              <img className="w-[100px] h-[55px]" src='images/Group1.png' alt='img' />
             </Link>
             <section className="MOBILE-MENU flex lg:hidden md:ml-auto">
               <div
@@ -41,7 +41,7 @@ export default function Navbar() {
                   </svg>
                 </div>
                 <Link to='/' className="pt-0 flex title-font font-medium items-start text-gray-900 mb-4 md:mb-0">
-                  <img src='images/Group1.png' id='logoImage' alt='img' />
+                  <img className="w-[100px] h-[55px]" src='images/Group1.png' alt='img' />
                 </Link>
 
                 <ul className="flex flex-col items-center justify-between text-base text-black font-semibold min-h-[200px]">

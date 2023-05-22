@@ -2,22 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+
 #nav{
     background-color: #fff6ea;
-/*    background-color: #fdf1e2;*/
-
-
 }
-#logoImage{
-    width: 100px;
-    height: 55px;
-}
-#navbar{
-width: 85vw;
-}
-#navabar1{
-}
-
 #navbarButton{
     font-family: 'Urbanist';
 }
