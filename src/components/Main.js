@@ -39,7 +39,7 @@ function Main() {
                         <Link to='/signup' className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </Link>
                         <div className='w-[100%]'>
-                            <img className="w-full object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
+                            <img className="w-screen object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
                         </div>
                     </div>
                 </div>
@@ -64,11 +64,11 @@ function Main() {
                 <div id='group3' className='relative lg:h-auto md:h-96 h-96 text-center rounded-t-3xl lg:mx-10 md:mx-5' >
 
                     <img className="lg:w- md:w- object-cover lg:h-full h-full object-center rounded-lg md:mt-0 mt-" src="images/Group3.png" alt="step" />
-                    <div className='absolute lg:top-16 md:top-10 top-10 lg:text-7xl md:text-5xl mx-auto text-2xl text-white w-full' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
+                    <div className='absolute lg:top-16 md:top-10 top-10 lg:text-7xl md:text-5xl mx-auto text-2xl text-white w-[100%]' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
                     <p className="absolute w- lg:top-64 md:top-40 top-36 lg:text-xl md:text-lg text-sm text-white text-center font-normal lg:mx-40" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child'simagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
                         valuable parenting skills through a fun and interactive gamified approach.</p>
 
-                    <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-full'>
+                    <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-[100%]'>
                         <button className="mx-5 bg-black text-white py-1 px-6 focus:outline-none hover:bg-white hover:text-black m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
                         </button>
                         <Link to='/signup' className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan

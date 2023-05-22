@@ -21,7 +21,7 @@ function SignupCard() {
             <div className='lg:h-[95vh] md:h-[50vh] h-[100vh] lg:w-3/4 mx-auto lg:my-4 mb-0 lg:py-0 md:py-0 lg:rounded-3xl' id='card2'>
                 <div className="container mx-auto flex flex-wrap py-5 flex-col items-center">
                     <Link to='/' className="flex title-font font-medium items-center text-gray-900 mb-10 md:mb-0">
-                        <img src='images/Group1.png' id='logoImage' alt='img' />
+                        <img className='w-[100px] h-[55px]' src='images/Group1.png' alt='img' />
                     </Link>
                 </div>
                 <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-20' id='signupHeading'>
