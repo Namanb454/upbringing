@@ -1,19 +1,45 @@
 import { React, useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../signupcard.css'
+// import Home from '../pages/Home';
 import { FcGoogle } from 'react-icons/fc';
+import { auth, provider } from "./firebase";
+import { signInWithPopup } from "firebase/auth";
+// import { useHistory } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function SignupCard() {
     const carriers = [
         'Engineer', 'Doctor', 'Pilot', 'Teacher', 'Lawyer', 'Police'
     ]
     const [index, setIndex] = useState(0)
-  useEffect(() => {
-    if (index === carriers.length - 1) return
-    setTimeout(() => {
-      setIndex(index + 1)
-    }, 1000);
-  },)
+    useEffect(() => {
+        if (index === carriers.length - 1) return
+        setTimeout(() => {
+            setIndex(index + 1)
+        }, 1000);
+    },)
+
+    const [value, setValue] = useState('')
+
+    // const history = useHistory();
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        signInWithPopup(auth, provider).then((data) => {
+            setValue(data.user.email)
+            localStorage.setItem("email", data.user.email)
+            // history.push("/")
+            navigate("/");
+            alert("Welcome to the UpBringing");
+        })
+    }
+
+
+    useEffect(() => {
+        setValue(localStorage.getItem('email'))
+    })
+
 
     return (
         <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-0 top-0 md:mx-24 lg:mx-64' id='card1'>
@@ -43,10 +69,12 @@ function SignupCard() {
                 <div className='text-center lg:mx-40 mx-20 pb-5'>
 
                     <div className='flex  py-2 bg-white text-black rounded-full'>
-                        <button className='w-fit mx-auto' id='google'>
+
+                        <button className='w-fit mx-auto' id='google' onClick={handleClick}>
                             <FcGoogle className='mx-2 w-5 h-5' id='googlelogo' />
                             <span>Continue with Google</span>
                         </button>
+
                     </div>
                 </div>
                 <div className=" items-center pb-5 lg:mx-40 mx-20">

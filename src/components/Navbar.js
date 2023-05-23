@@ -1,8 +1,16 @@
 import { React, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+// import { auth } from "./firebase"
 
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const handleLogout = () => {
+    localStorage.clear()
+    window.location.reload()
+  }
+  // async function handleLogout() {
+  //   await auth.signOut();
+  // }
   return (
     <div className='w-[100%]' id='nav'>
 
@@ -56,6 +64,9 @@ export default function Navbar() {
                   </li>
                   <Link to='/signup' className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base md:my-0 my-5  md:mt-10" id='button1'>Choose Your Plan
                   </Link>
+                  <button onClick={handleLogout} className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base md:my-0 my-5  md:mt-10" id='button1'>Logout
+                  </button>
+
                 </ul>
               </div>
             </section>
@@ -86,6 +97,8 @@ export default function Navbar() {
           </nav>
           <Link to='/signup' className="mx-5 lg:flex md:hidden hidden bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
           </Link>
+          <button onClick={handleLogout} className="mx-5 lg:flex md:hidden hidden bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Logout
+          </button>
         </div>
       </header>
       <Outlet />
