@@ -1,12 +1,10 @@
 import { React, useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import '../signupcard.css'
-// import Home from '../pages/Home';
 import { FcGoogle } from 'react-icons/fc';
 import { auth, provider } from "./firebase";
 import { signInWithPopup } from "firebase/auth";
-// import { useHistory } from "react-router-dom";
-// import { useNavigate } from "react-router-dom";
+
 
 function SignupCard() {
     const carriers = [
@@ -20,17 +18,18 @@ function SignupCard() {
         }, 1000);
     },)
 
+    // Authentication Continue with Google
     const [value, setValue] = useState('')
 
-    // const history = useHistory();
+
     const navigate = useNavigate();
 
     const handleClick = () => {
         signInWithPopup(auth, provider).then((data) => {
             setValue(data.user.email)
             localStorage.setItem("email", data.user.email)
-            // history.push("/")
-            navigate("/");
+
+            navigate("/information");
             alert("Welcome to the UpBringing");
         })
     }
@@ -78,8 +77,8 @@ function SignupCard() {
                     </div>
                 </div>
                 <div className=" items-center pb-5 lg:mx-40 mx-20">
-                    <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Help Us Improve the service by <b> giving us your few minutes on a call</b> </label>
+                    <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" required />
+                    <label for="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300" required>Help Us Improve the service by <b> giving us your few minutes on a call</b> </label>
                 </div>
                 <div className='w-fit my-auto mx-auto'>
                     <button className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>Next
