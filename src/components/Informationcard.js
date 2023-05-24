@@ -4,7 +4,7 @@ import '../signupcard.css'
 
 function Informationcard() {
     const carriers = [
-        'Engineer', 'Doctor', 'Pilot', 'Teacher', 'Lawyer', 'Police'
+        'Engineer', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer'
     ]
     const [index, setIndex] = useState(0)
     useEffect(() => {

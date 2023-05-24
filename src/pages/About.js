@@ -112,10 +112,10 @@ function About() {
                   <div className="w-[100%] h-32">
                     <div className="transition-all transform translate-y-8 w-[100%] h-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
 
-                      <p className="text-sm  text-white">
-                        <img className="absolute inset-0 object-cover mx-auto w-32 h-32 group-hover:opacity-"
-                          src="images/Group2.png" alt="" />
-                      </p>
+                      <div className=" w-96">
+                        <img className="absolute inset-0 object-cover mx-auto group-hover:opacity-"
+                          src={data.img} alt="" />
+                      </div>
                     </div>
                   </div>
                 </div>
