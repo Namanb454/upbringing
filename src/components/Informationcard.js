@@ -43,7 +43,7 @@ function Informationcard() {
                     </div>
                 </div>
                 <div className='w-fit my-5 mx-auto'>
-                    <Link to="/" className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>Next
+                    <Link to="/" className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>We're all set
                     </Link>
                 </div>
             </div>
