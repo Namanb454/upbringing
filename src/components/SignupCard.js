@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
 import '../signupcard.css'
 import { FcGoogle } from 'react-icons/fc';
 import { auth, provider } from "./firebase";
@@ -7,17 +8,6 @@ import { signInWithPopup } from "firebase/auth";
 
 
 function SignupCard() {
-    const carriers = [
-        'Engineer', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer'
-    ]
-    const [index, setIndex] = useState(0)
-    useEffect(() => {
-        if (index === carriers.length - 1) return
-        setTimeout(() => {
-            setIndex(index + 1)
-        }, 1000);
-    },)
-
     // Authentication Continue with Google
     const [value, setValue] = useState('')
 
@@ -49,9 +39,20 @@ function SignupCard() {
                         <img className='w-[100px] h-[55px]' src='images/Group1.png' alt='img' />
                     </Link>
                 </div>
-                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-20' id='signupHeading'>
-                    We start the journey of
-                    making your kid <span id='signupsubHeading'> {carriers[index]}</span>
+                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 mb-20' id='signupHeading'>
+                    We start the journey of making your kid
+                    <span className='' id='signupsubHeading'>
+
+                        <Typewriter
+                            options={{
+                                autoStart: true,
+                                loop: true,
+                                delay: 40,
+                                strings: [
+                                    'Engineer', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer'
+                                ],
+                            }} />
+                    </span>
                 </h2>
                 <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
                     Create an account
@@ -62,8 +63,10 @@ function SignupCard() {
                         <input type="email" id="email" placeholder='we saved a place for your email' name="email" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                     </div>
                 </div>
-                <div className='w-full py-5'>
-                    <h2 className='text-center text-black'>or</h2>
+                <div className='w-full py-1'>
+                    <h2 className='text-center text-black'>
+                        or
+                    </h2>
                 </div>
                 <div className='text-center lg:mx-40 mx-20 pb-5'>
 

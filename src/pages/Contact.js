@@ -69,15 +69,15 @@ function Contact() {
 
                                 <div className="relative text-left mb-4">
                                     <label htmlFor="name" className="leading-7 mx-2 text-sm text-gray-600">Name</label>
-                                    <input type="text" id="name" name="fullname" placeholder='Full Name' value={userData.fullname} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <input type="text" id="name" name="fullname" placeholder='Full Name' value={userData.fullname} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                                 </div>
                                 <div className="relative text-left mb-4">
                                     <label htmlFor="email" className="leading-7 mx-2 text-sm text-gray-600">Email</label>
-                                    <input type="email" id="email" name="email" placeholder='xyz@gmail.com' value={userData.email} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <input type="email" id="email" name="email" placeholder='xyz@gmail.com' value={userData.email} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                                 </div>
                                 <div className="relative text-left mb-4">
                                     <label htmlFor="text" className="leading-7 mx-2 text-sm text-gray-600">Comment</label>
-                                    <input type="text" id="comment" name="comment" placeholder='Text' value={userData.comment} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <input type="text" id="comment" name="comment" placeholder='Text' value={userData.comment} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                                 </div>
                                 <button onClick={submitData} className="w-fit bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 mx-auto rounded-lg text-base md:my-0 my-5  md:mt-10" id='button1'>Submit
                                 </button>
