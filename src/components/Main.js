@@ -50,7 +50,7 @@ function Main() {
 
                 <div className="container lg:mx-auto flex lg:mt-10 md:mt-10 lg:py-0 md:py-0 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
-                        <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>THE KIDS</h2>
+                        
                         <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-0 mb-10 font-medium text-gray-900" id='about2heading'>How we help kIds
                         </h1>
                     </div>
@@ -109,7 +109,7 @@ function Main() {
 
                 <div className="container lg:mx-auto flex lg:mt-20 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
-                        <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>THE PARENTS</h2>
+                        
                         <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>How we help Parents
                         </h1>
                     </div>
