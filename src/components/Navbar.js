@@ -1,9 +1,21 @@
-import { React, useState } from "react";
+import { React, useState, useEffect, useRef } from "react";
 import { Outlet, Link } from "react-router-dom";
 // import { auth } from "./firebase"
 
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  let menuRef = useRef();
+  useEffect(() =>{
+    let handler = (e) =>{
+      if(!menuRef.current.contains(e.target)){
+        setIsNavOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return()=>{
+      document.removeEventListener("mousedown", handler);
+    }
+  })
   const handleLogout = () => {
     localStorage.clear()
     window.location.reload()
@@ -20,7 +32,7 @@ export default function Navbar() {
             <Link to='/' className="flex title-font font-medium items-start text-gray-900 mb-4 md:mb-0">
               <img className="w-[100px] h-[55px]" src='images/Group1.png' alt='img' />
             </Link>
-            <section className="MOBILE-MENU flex lg:hidden md:ml-auto">
+            <section className="MOBILE-MENU flex lg:hidden md:ml-auto" ref={menuRef}>
               <div
                 className="HAMBURGER-ICON space-y-2"
                 onClick={() => setIsNavOpen((prev) => !prev)}

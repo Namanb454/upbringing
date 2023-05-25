@@ -18,7 +18,7 @@ function About() {
       <div id='bgcolor'>
         <div className="container lg:mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
-            <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' data-aos="zoom-out" data-aos-delay="200"id='about1heading'>OUR STORY</h2>
+            <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' data-aos="zoom-out" data-aos-delay="200" id='about1heading'>OUR STORY</h2>
             <div className='flex mx-auto'>
 
               <div className='lg:pl-10 md:pl-0 h-0 lg:mt-5 md:mt-5 mt-2'>
