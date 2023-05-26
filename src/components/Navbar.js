@@ -5,14 +5,17 @@ import { Outlet, Link } from "react-router-dom";
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   let menuRef = useRef();
-  useEffect(() =>{
-    let handler = (e) =>{
-      if(!menuRef.current.contains(e.target)){
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
         setIsNavOpen(false);
+        let move = document.getElementById('');
+        // move.style["margin-left"] = "0px";
+        // move.style["transition"] = "3s";
       }
     };
     document.addEventListener("mousedown", handler);
-    return()=>{
+    return () => {
       document.removeEventListener("mousedown", handler);
     }
   })
@@ -32,9 +35,9 @@ export default function Navbar() {
             <Link to='/' className="flex title-font font-medium items-start text-gray-900 mb-4 md:mb-0">
               <img className="w-[100px] h-[55px]" src='images/Group1.png' alt='img' />
             </Link>
-            <section className="MOBILE-MENU flex lg:hidden md:ml-auto" ref={menuRef}>
+            <section className="MOBILE-MENU flex lg:hidden md:ml-auto transition-[all .5s ease-in-out]" ref={menuRef}>
               <div
-                className="HAMBURGER-ICON space-y-2"
+                className="HAMBURGER-ICON space-y-2 transition-[all .5s ease-in-out]"
                 onClick={() => setIsNavOpen((prev) => !prev)}
               >
                 <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -44,7 +47,7 @@ export default function Navbar() {
 
               <div className={isNavOpen ? "showMenuNav rounded-b-3xl" : "hideMenuNav"}>
                 <div
-                  className="absolute top-0 right-0 md:px-10 px-5 py-12"
+                  className="absolute top-0 right-0 md:px-10 px-5 py-12 "
                   onClick={() => setIsNavOpen(false)}
                 >
                   <svg

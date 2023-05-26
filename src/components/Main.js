@@ -8,7 +8,34 @@ function Main() {
     const [ismoving, setIsmoving] = useState(false)
     function handleMouseEnter() {
         setIsmoving(true);
+        let move = document.getElementById('train');
+        move.style["margin-left"] = "0px";
+        move.style["transition"] = "3s";
     }
+    const [ismoving1, setIsmoving1] = useState(false)
+    function handleMouseEnter1() {
+        setIsmoving1(true);
+        let move = document.getElementById('train');
+        move.style["margin-left"] = "20%";
+        move.style["transition"] = "3s";
+    }
+
+    const [ismoving2, setIsmoving2] = useState(false)
+    function handleMouseEnter2() {
+        setIsmoving2(true);
+        let move = document.getElementById('train');
+        move.style["margin-left"] = "45%";
+        move.style["transition"] = "3s";
+    }
+
+    const [ismoving3, setIsmoving3] = useState(false)
+    function handleMouseEnter3() {
+        setIsmoving3(true);
+        let move = document.getElementById('train');
+        move.style["margin-left"] = "70%";
+        move.style["transition"] = "3s";
+    }
+
     return (
         <div className='w-[100%]' id='main' >
 
@@ -50,7 +77,7 @@ function Main() {
 
                 <div className="container lg:mx-auto flex lg:mt-10 md:mt-10 lg:py-0 md:py-0 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
-                        
+
                         <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-0 mb-10 font-medium text-gray-900" id='about2heading'>How we help kIds
                         </h1>
                     </div>
@@ -92,15 +119,16 @@ function Main() {
                             <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-[100%]'>
                                 <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
                                 </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>02-05
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter1} id='button1'>02-05
                                 </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>05-08
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter2} id='button1'>05-08
                                 </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" id='button1'>08+
+                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter3} id='button1'>08+
                                 </button>
                             </div>
                             <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-32 bottom-[132px] w-[100%]'>
-                                <img className={`lg:w-64 md:w-48 w-32 ${ismoving ? "ml-[100px]" : "mx-0"}`} src='images/Group5Train.png' alt='img' />
+                                <img className="lg:w-64 md:w-48 w-28"
+                                    src='images/Group5Train.png' alt='img' id='train' />
                             </div>
                         </div>
                     </div>
@@ -109,7 +137,7 @@ function Main() {
 
                 <div className="container lg:mx-auto flex lg:mt-20 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
-                        
+
                         <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-10 mb-10 font-medium text-gray-900" id='about2heading'>How we help Parents
                         </h1>
                     </div>
