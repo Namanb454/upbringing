@@ -73,7 +73,7 @@ function About() {
             </div>
           </div>
           <div id="item3" className="flex carousel-item w-[100%]">
-            <img src="/images/about2.png" className="w-1/2" alt='img' />
+            <img src="/images/about3.png" className="w-1/2" alt='img' />
             <div className='w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
               <h2 className='lg:text-5xl font-[Sunny] text-[#FF4D4D]'>Our COMMUNITY   </h2>
               <p className=' text-white lg:text-base md:text-base text-xs lg:leading-8 md:leading-6 leading-4' id='about2' >But we're more than just a toy delivery service. We're a community of like-minded parents who share a common goal: to give our children the best possible start in life. With Up-bringing, you'll have access to a supportive network of parents who are going through the same challenges and joys of parenting as you are.</p>

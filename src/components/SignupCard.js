@@ -2,6 +2,7 @@ import { React, useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import '../signupcard.css'
+// import { carriers } from '../constants/signupCarriers';
 import { FcGoogle } from 'react-icons/fc';
 import { auth, provider } from "./firebase";
 import { signInWithPopup } from "firebase/auth";
@@ -39,9 +40,10 @@ function SignupCard() {
                         <img className='w-[100px] h-[55px]' src='images/Group1.png' alt='img' />
                     </Link>
                 </div>
-                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 mb-20' id='signupHeading'>
+
+                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 mb-20' id='signupHeading' >
                     We start the journey of making your kid
-                    <span className='' id='signupsubHeading'>
+                    <span className='awesome' id='signupsubHeading' >
 
                         <Typewriter
                             options={{
@@ -49,11 +51,13 @@ function SignupCard() {
                                 loop: true,
                                 delay: 40,
                                 strings: [
-                                    'Engineer', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer'
+                                    'Engineer', 'Doctor', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer', 'Teacher'
                                 ],
                             }} />
                     </span>
                 </h2>
+
+
                 <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
                     Create an account
                 </h2>
