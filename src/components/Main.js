@@ -65,7 +65,7 @@ function Main() {
 
                         <Link to='/signup' className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </Link>
-                        <div className='w-[100%]'>
+                        <div className='w-screen'>
                             <img className="w-screen object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
                         </div>
                     </div>
@@ -87,12 +87,12 @@ function Main() {
                 </div>
 
 
-
+                {/* Engage Your Child's Imagination and  */}
                 <div id='group3' className='relative lg:h-auto md:h-96 h-96 text-center rounded-t-3xl lg:mx-10 md:mx-5' >
 
                     <img className="lg:w- md:w- object-cover lg:h-full h-full object-center rounded-lg md:mt-0 mt-" src="images/Group3.png" alt="step" />
                     <div className='absolute lg:top-16 md:top-10 top-10 lg:text-7xl md:text-5xl mx-auto text-2xl text-white w-[100%]' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
-                    <p className="absolute w- lg:top-64 md:top-40 top-36 lg:text-xl md:text-lg text-sm text-white text-center font-normal lg:mx-40" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child'simagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
+                    <p className="absolute w- lg:top-64 md:top-40 top-36 lg:text-xl md:text-lg text-sm text-white text-center font-normal lg:mx-40" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child's imagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
                         valuable parenting skills through a fun and interactive gamified approach.</p>
 
                     <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-[100%]'>
@@ -112,7 +112,7 @@ function Main() {
                     <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col  mb-16 md:mb-0 text-center">
                         <div id='' className='relative lg:h-auto h-96 text-center' >
 
-                            <img className="lg:w- md:w-[100%] object-cover lg:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
+                            <img className="lg:w-[100%] md:w-[100%] object-cover lg:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
                             <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-[100%]' id='group5heading'>We help parents at child’s every step</div>
                             <p className="absolute w-[100%] lg:top-44 md:top-20 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 

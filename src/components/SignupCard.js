@@ -41,9 +41,9 @@ function SignupCard() {
                     </Link>
                 </div>
 
-                <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 mb-20' id='signupHeading' >
+                <h2 className='w- lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 mb-20' id='signupHeading' >
                     We start the journey of making your kid
-                    <span className='awesome' id='signupsubHeading' >
+                        <div className='w-fit mx-auto' id='signupsubHeading'>
 
                         <Typewriter
                             options={{
@@ -54,7 +54,8 @@ function SignupCard() {
                                     'Engineer', 'Doctor', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer', 'Teacher'
                                 ],
                             }} />
-                    </span>
+                            </div>
+                    
                 </h2>
 
 
