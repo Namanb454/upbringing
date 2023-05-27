@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
 import '../signupcard.css'
 
 function Informationcard() {
@@ -25,21 +26,47 @@ function Informationcard() {
                 </div>
                 <h2 className='lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-10 mb-20' id='signupHeading'>
                     We start the journey of
-                    making your kid <span id='signupsubHeading'> {carriers[index]}</span>
+                    making your kid <span id='signupsubHeading'> <Typewriter
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay: 40,
+                            strings: [
+                                'Engineer', 'Doctor', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer', 'Teacher'
+                            ],
+                        }} /></span>
                 </h2>
                 <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
                     Tell Us More About Your Kid
                 </h2>
                 <div className="flex w-cover mx-20 my-5 items-end">
-                    <div className="relative w-full text-left">
-                        
-                        <input type="name" id="name" placeholder="Kid's Name" name="name" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <div className="relative w-full h-11 text-left">
+
+                        <input type="name" id="name" placeholder="Kid's Name" name="name" className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                     </div>
                 </div>
                 <div className="flex w-cover mx-20 items-end">
-                    <div className="relative w-full text-left">
-                        
-                        <input type="name" id="name" placeholder="Kid's Age" name="number" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <div className="relative w-full h-11 bg-white text-left">
+
+                        <select id="age" type="age" name="age" className=" w-full bg-opacity-50 h-11 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border   text-base outline-none bg-transparent py-1 px-3 leading-8 transition- duration-200 ease-in-out">
+                            <option selected>Kid's Age</option>
+                            <option value="US">1</option>
+                            <option value="CA">2</option>
+                            <option value="FR">3</option>
+                            <option value="DE">4</option>
+                            <option value="DE">5</option>
+                            <option value="DE">6</option>
+                            <option value="DE">7</option>
+                            <option value="DE">8</option>
+                            <option value="DE">9</option>
+                            <option value="DE">10</option>
+                            <option value="DE">11</option>
+                            <option value="DE">12</option>
+                            <option value="DE">13</option>
+                            <option value="DE">14</option>
+                            <option value="DE">15</option>
+                        </select>
+                        {/* <input type="name" id="name" placeholder="Kid's Age" name="number" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required /> */}
                     </div>
                 </div>
                 <div className='w-fit my-5 mx-auto'>
