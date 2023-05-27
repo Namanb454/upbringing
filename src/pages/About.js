@@ -81,7 +81,7 @@ function About() {
             <img src="/images/about2.png" className="relative lg:w-1/2 md:w-1/2 w-0 " alt='img' />
             <div className='lg:w-1/2 md:w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
               <h2 className='lg:text-5xl md:text-5xl text-4xl lg:text-left md:text-left text-center font-[Sunny] text-[#B6F24E]'>Our SoLUTION </h2>
-              <p className=' text-white lg:text-base md:text-base text-base lg:leading-8 md:leading-6 leading-4' id='about2' >That's why we created Up-bringing, a platform that provides parents with everything they need to help their children grow mentally, ethically, and physically. Every 6 weeks, we deliver a curated selection of toys and resources that are specifically designed to support your child's development. And with our dashboard, you can easily track your child's progress and learn more about parenting through a fun, gamified approach.</p>
+              <p className=' text-white lg:text-base md:text-base text-base text-center lg:leading-8 md:leading-6 leading-4' id='about2' >That's why we created Up-bringing, a platform that provides parents with everything they need to help their children grow mentally, ethically, and physically. Every 6 weeks, we deliver a curated selection of toys and resources that are specifically designed to support your child's development. And with our dashboard, you can easily track your child's progress and learn more about parenting through a fun, gamified approach.</p>
               <div className="flex justify-center w-[100%] lg:py-2 md:py-2 py-2 gap-2">
                 <a href="#item1" className="btn btn-xs"></a>
                 <a onClick={handleClick} style={{ backgroundColor: active ? 'white' : 'white' }} href="#item2" className="btn btn-xs"></a>
@@ -93,7 +93,7 @@ function About() {
             <img src="/images/about3.png" className="relative lg:w-1/2 md:w-1/2 w-0 " alt='img' />
             <div className='lg:w-1/2 md:w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
               <h2 className='lg:text-5xl md:text-5xl text-4xl lg:text-left md:text-left text-center font-[Sunny] text-[#FF4D4D]'>Our COMMUNITY   </h2>
-              <p className=' text-white lg:text-base md:text-base text-base lg:leading-8 md:leading-6 leading-4' id='about2' >But we're more than just a toy delivery service. We're a community of like-minded parents who share a common goal: to give our children the best possible start in life. With Up-bringing, you'll have access to a supportive network of parents who are going through the same challenges and joys of parenting as you are.</p>
+              <p className=' text-white lg:text-base md:text-base text-base text-center lg:leading-8 md:leading-6 leading-4' id='about2' >But we're more than just a toy delivery service. We're a community of like-minded parents who share a common goal: to give our children the best possible start in life. With Up-bringing, you'll have access to a supportive network of parents who are going through the same challenges and joys of parenting as you are.</p>
               <div className="flex justify-center w-[100%] lg:py-2 md:py-2 py-2 gap-2">
                 <a href="#item1" className="btn btn-xs"></a>
                 <a href="#item2" className="btn btn-xs"></a>
