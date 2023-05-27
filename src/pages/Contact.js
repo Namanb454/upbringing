@@ -23,6 +23,20 @@ function Contact() {
     const submitData = async (event) => {
         event.preventDefault();
         const { fullname, email, comment } = userData;
+
+        if (fullname.length === 0) {
+            alert("Invalid Credential!")
+            return
+        }
+        if (email.length === 0) {
+            alert("Invalid Credential!")
+            return
+        }
+        if (comment.length === 0) {
+            alert("Invalid Credential!")
+            return
+        }
+
         const res = await fetch(
             "https://upbringing-31259-default-rtdb.firebaseio.com/userDataRecords.json",
             {
@@ -79,7 +93,7 @@ function Contact() {
                                     <label htmlFor="text" className="leading-7 mx-2 text-sm text-gray-600">Comment</label>
                                     <input type="text" id="comment" name="comment" placeholder='Text' value={userData.comment} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                                 </div>
-                                <button onClick={submitData} className="w-fit bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 mx-auto rounded-lg text-base md:my-0 my-5  md:mt-10" id='button1'>Submit
+                                <button type='submit' onClick={submitData} className="w-fit bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 mx-auto rounded-lg text-base md:my-0 my-5  md:mt-10" id='button1'>Submit
                                 </button>
 
                             </form>
@@ -106,9 +120,9 @@ function Contact() {
                         </div>
                     </section>
                 </div>
-
-
             </div>
+
+
             <div>
                 <Footer />
             </div>

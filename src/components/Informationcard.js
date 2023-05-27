@@ -1,9 +1,10 @@
 import { React, useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import '../signupcard.css'
 
 function Informationcard() {
+
     const carriers = [
         'Engineer', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer'
     ]
@@ -14,6 +15,57 @@ function Informationcard() {
             setIndex(index + 1)
         }, 1000);
     },)
+
+
+    const [userData, setUserData] = useState({
+        name: "",
+        age: "",
+    });
+    let name, value;
+    const postUserData = (event) => {
+        name = event.target.name;
+        value = event.target.value;
+        setUserData({ ...userData, [name]: value })
+    };
+
+    //connect with firebase
+    const navigate = useNavigate();
+    const submitData = async (event) => {
+        event.preventDefault();
+        const { name, age } = userData;
+
+        if (name.length === 0) {
+            alert("Invalid Credential!")
+            return
+        }
+        if (age.length === 0) {
+            alert("Invalid Credential!")
+            return
+        }
+
+
+
+        const res = await fetch(
+            "https://upbringing-31259-default-rtdb.firebaseio.com/userKidsRecords.json",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    name, age
+                }),
+            }
+        );
+        if (res) {
+            alert("Data Stored");
+            alert("Welcome to the UpBringing");
+            navigate("/");
+        }
+        else {
+            alert("Please fill the data");
+        }
+    };
 
     return (
         <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-0 top-0 md:mx-24 lg:mx-64' id='card1'>
@@ -41,37 +93,34 @@ function Informationcard() {
                 </h2>
                 <div className="flex w-cover mx-20 my-5 items-end">
                     <div className="relative w-full h-11 text-left">
-
-                        <input type="name" id="name" placeholder="Kid's Name" name="name" className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Kid's Name</label>
+                        <input type="name" id="name" placeholder="Anshul" name="name" value={userData.name} onChange={postUserData} className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                     </div>
                 </div>
-                <div className="flex w-cover mx-20 items-end">
-                    <div className="relative w-full h-11 bg-white text-left">
+                <form method='POST' className="flex w-cover mx-20 mt-10 items-end">
+                    <div className="relative w-full h-11 text-left">
 
-                        <select id="age" type="age" name="age" className=" w-full bg-opacity-50 h-11 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border   text-base outline-none bg-transparent py-1 px-3 leading-8 transition- duration-200 ease-in-out">
-                            <option selected>Kid's Age</option>
-                            <option value="US">1</option>
-                            <option value="CA">2</option>
-                            <option value="FR">3</option>
-                            <option value="DE">4</option>
-                            <option value="DE">5</option>
-                            <option value="DE">6</option>
-                            <option value="DE">7</option>
-                            <option value="DE">8</option>
-                            <option value="DE">9</option>
-                            <option value="DE">10</option>
-                            <option value="DE">11</option>
-                            <option value="DE">12</option>
-                            <option value="DE">13</option>
-                            <option value="DE">14</option>
-                            <option value="DE">15</option>
-                        </select>
-                        {/* <input type="name" id="name" placeholder="Kid's Age" name="number" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required /> */}
+                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Kid's Age</label>
+                        <div className='bg-white text-'>
+                            <select id="age" type="age" name="age" value={userData.age} onChange={postUserData} className=" w-full bg-white bg-opacity-50 h-11 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border   text-base outline-none bg-transparent py-1 px-3 leading-8 transition- duration-200 ease-in-out" required>
+                                {
+                                    Array.from(Array(15), (e, i) => {
+                                        return (
+                                            <option key={i + 1} value={i + 1}>
+                                                {i + 1}
+                                            </option>
+                                        )
+                                    }
+                                    )
+                                }
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div className='w-fit my-5 mx-auto'>
-                    <Link to="/" className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>We're all set
-                    </Link>
+                </form>
+                <div className='w-fit mx-auto my-10'>
+
+                    <button type='submit' onClick={submitData} className="ml-auto font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>We're All Set
+                    </button>
                 </div>
             </div>
         </div>
