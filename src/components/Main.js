@@ -65,8 +65,8 @@ function Main() {
 
                         <Link to='/signup' className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </Link>
-                        <div className='w-screen'>
-                            <img className="w-screen object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
+                        <div className='w-[100%]'>
+                            <img className="w-[100%] object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
                         </div>
                     </div>
                 </div>
