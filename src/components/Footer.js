@@ -35,7 +35,7 @@ function Footer() {
                 </div>
 
                 <div className='w-[100%] lg:mt-10 mt-10 lg:pb-5 pb-5'>
-                    <button className='lg:w-64 text-center'>
+                    <button className='lg:w-[20%] text-center'>
                         Leave a request
                     </button>
 
@@ -45,8 +45,8 @@ function Footer() {
                                  />
                             
 
-                            <div className='flex mx-auto w-fit'>
-                                <Link to='/signup' className=" bg-white text-black py-2 md:py-2 px-6 md:px-3 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0" id='button2'>Sign Up
+                            <div className='flex mx-auto w-fit rounded-3xl'>
+                                <Link to='/signup' className=" bg-white text-black py-2 md:py-2 px-6 md:px-3 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0 rounded-3xl" id='button2'>Sign Up
                                 </Link>
                             </div>
                         </div>

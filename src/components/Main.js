@@ -121,7 +121,7 @@ function Main() {
                         valuable parenting skills through a fun and interactive gamified approach.</p>
 
                     <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-[100%]'>
-                        <button className="mx-5 bg-black text-white py-1 px-6 focus:outline-none hover:bg-white hover:text-black m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
+                        <button className="mx-5 bg-white text-black py-1 px-6 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
                         </button>
                         <Link to='/signup' className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </Link>
@@ -182,7 +182,7 @@ function Main() {
 
                                         <img src="/images/childstep4.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-xs lg:text-left md:text-left text-center lg:leading-8 md:leading-6 leading-0' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
+                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-xs lg:text-left md:text-left text-center lg:leading-6 md:leading-6 leading-0' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
 
                                     </div>
                                 </div>
@@ -213,7 +213,7 @@ function Main() {
                                 <a href='#item4' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white  lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter3} id='button1'>08+
                                 </a>
                             </div>
-                            <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-32 bottom-[132px] w-[100%]'>
+                            <div className='absolute lg:flex-0 flex lg:bottom-[34%] md:bottom-[32.5%] bottom-[34%] w-[100%]'>
                                 <img className="lg:w-64 md:w-48 w-28"
                                     src='images/Group5Train.png' alt='img' id='train' />
                             </div>
