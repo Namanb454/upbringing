@@ -9,7 +9,7 @@
     "aos": "^2.3.4",
     "classnames": "^2.3.2",
     "fireadmin": "^0.0.4",
-    "firebase": "^9.22.0",
+    "firebase": "^9.22.1",
     "firebase-admin": "^11.8.0",
     "framer-motion": "^10.12.8",
     "react": "^18.2.0",

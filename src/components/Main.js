@@ -10,14 +10,27 @@ function Main() {
         setIsmoving(true);
         let move = document.getElementById('train');
         move.style["margin-left"] = "0px";
-        move.style["transition"] = "3s";
+        move.style["transition"] = "2s";
+        let heading = document.getElementById('group5heading');
+        heading.style["display"] = "none";
+        let subheading = document.getElementById('group5subheading');
+        subheading.style["display"] = "none";
+        let carousel = document.getElementById("carousel");
+        // carousel.style["transition"] = "10s";
+        carousel.style["display"] = "flex";
     }
     const [ismoving1, setIsmoving1] = useState(false)
     function handleMouseEnter1() {
         setIsmoving1(true);
         let move = document.getElementById('train');
         move.style["margin-left"] = "20%";
-        move.style["transition"] = "3s";
+        move.style["transition"] = "2s";
+        let display = document.getElementById('group5heading');
+        display.style["display"] = "none";
+        let subheading = document.getElementById('group5subheading');
+        subheading.style["display"] = "none";
+        let carousel = document.getElementById("carousel");
+        carousel.style["display"] = "flex";
     }
 
     const [ismoving2, setIsmoving2] = useState(false)
@@ -25,7 +38,13 @@ function Main() {
         setIsmoving2(true);
         let move = document.getElementById('train');
         move.style["margin-left"] = "45%";
-        move.style["transition"] = "3s";
+        move.style["transition"] = "2s";
+        let display = document.getElementById('group5heading');
+        display.style["display"] = "none";
+        let subheading = document.getElementById('group5subheading');
+        subheading.style["display"] = "none";
+        let carousel = document.getElementById("carousel");
+        carousel.style["display"] = "flex";
     }
 
     const [ismoving3, setIsmoving3] = useState(false)
@@ -33,7 +52,13 @@ function Main() {
         setIsmoving3(true);
         let move = document.getElementById('train');
         move.style["margin-left"] = "70%";
-        move.style["transition"] = "3s";
+        move.style["transition"] = "2s";
+        let display = document.getElementById('group5heading');
+        display.style["display"] = "none";
+        let subheading = document.getElementById('group5subheading');
+        subheading.style["display"] = "none";
+        let carousel = document.getElementById("carousel");
+        carousel.style["display"] = "flex";
     }
 
     return (
@@ -108,23 +133,85 @@ function Main() {
 
                 {/* We help parents at child’s every step */}
 
-                <div className="container mx-auto flex items-center">
+
+
+
+                <div className="container mx-auto my-10 flex items-center">
                     <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col  mb-16 md:mb-0 text-center">
                         <div id='' className='relative lg:h-auto h-96 text-center' >
 
                             <img className="lg:w-[100%] md:w-[100%] object-cover lg:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
+
+
+                            {/* carousel */}
+                            <div onClick="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3" className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-32 h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#F4AD39]" id='carousel'>
+
+                                <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
+
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+
+                                        <img src="/images/childstep1.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+
+                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-6 leading-4' id='about2' >Here you start with us, and at this stage our primary focus revolves around motor & cognitive development of a child, by providing personalized & interesting toys to develop the same.02</p>
+
+                                    </div>
+                                </div>
+                                <div id="item2" className="lg:flex md:flex carousel-item w-[100%]">
+
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+
+                                        <img src="/images/childstep2.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+
+                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center lg:leading-8 md:leading-6 leading-4' id='about2' >At this time we delve more deeper by focusing on the basics of STEM (Science, Technology, Engineering, and Mathematics) education by providing educational toys, resources & gamified platforms to learn</p>
+
+                                    </div>
+                                </div>
+                                <div id="item3" className="lg:flex md:flex carousel-item w-[100%]">
+
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+
+                                        <img src="/images/childstep3.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+
+                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center lg:leading-8 md:leading-6 leading-4' id='about2' >This age block is crucial for us as we try to  identify one niche, based on a kid’s interest & takes a stem further in that + focusing on STEM as a Major here.</p>
+
+                                    </div>
+                                </div>
+                                <div id="item4" className="lg:flex md:flex carousel-item w-[100%]">
+
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+
+                                        <img src="/images/childstep4.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+
+                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-xs lg:text-left md:text-left text-center lg:leading-8 md:leading-6 leading-0' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                             <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-[100%]' id='group5heading'>We help parents at child’s every step</div>
                             <p className="absolute w-[100%] lg:top-44 md:top-20 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
                             <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-[100%]'>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
-                                </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter1} id='button1'>02-05
-                                </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter2} id='button1'>05-08
-                                </button>
-                                <button className="lg:mx-auto md:mx-auto lg:h-12 md:h-10 bg-red-500 text-white  py-1 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter3} id='button1'>08+
-                                </button>
+                                <a href='#item1' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
+                                </a>
+                                <a href='#item2' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white  lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter1} id='button1'>02-05
+                                </a>
+                                <a href='#item3' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white  lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter2} id='button1'>05-08
+                                </a>
+                                <a href='#item4' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white  lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter3} id='button1'>08+
+                                </a>
                             </div>
                             <div className='absolute lg:flex-0 flex lg:bottom-60 md:bottom-32 bottom-[132px] w-[100%]'>
                                 <img className="lg:w-64 md:w-48 w-28"

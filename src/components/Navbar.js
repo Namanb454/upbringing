@@ -1,5 +1,6 @@
 import { React, useState, useEffect, useRef } from "react";
 import { Outlet, Link } from "react-router-dom";
+
 // import { auth } from "./firebase"
 
 export default function Navbar() {
@@ -105,9 +106,9 @@ export default function Navbar() {
     `}</style>
           </div>
           <nav className="md:ml-16 md:mr-auto lg:flex md:hidden hidden flex-wrap items-center text-base text-black font-semibold justify-center">
-            <Link to='/about' className="mr-10 hover:text-gray-900">About Us</Link>
-            <Link to='/blogs' className="mr-10 hover:text-gray-900">Resources</Link>
-            <Link to='/contact' className="mr-10 hover:text-gray-900">Contact Us</Link>
+            <Link to='/about' id="navbarLinks" className="mr-10 hover:text-gray-900">About Us</Link>
+            <Link to='/blogs' id="navbarLinks" className="mr-10 hover:text-gray-900">Resources</Link>
+            <Link to='/contact' id="navbarLinks" className="mr-10 hover:text-gray-900">Contact Us</Link>
           </nav>
           <Link to='/signup' className="mx-5 lg:flex md:hidden hidden bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
           </Link>
