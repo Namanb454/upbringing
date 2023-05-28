@@ -16,7 +16,6 @@ function Main() {
         let subheading = document.getElementById('group5subheading');
         subheading.style["display"] = "none";
         let carousel = document.getElementById("carousel");
-        // carousel.style["transition"] = "10s";
         carousel.style["display"] = "flex";
     }
     const [ismoving1, setIsmoving1] = useState(false)
@@ -144,7 +143,7 @@ function Main() {
 
 
                             {/* carousel */}
-                            <div onClick="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3" className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-32 h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#F4AD39]" id='carousel'>
+                            <div onChange="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3" className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-32 h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#F4AD39]" id='carousel'>
 
                                 <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
 
