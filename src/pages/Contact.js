@@ -59,7 +59,7 @@ function Contact() {
 
 
     return (
-        <div>
+        <div className='bg-[#fff6ea]'>
             <div>
                 <Navbar />
             </div>

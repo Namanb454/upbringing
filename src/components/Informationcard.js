@@ -59,8 +59,7 @@ function Informationcard() {
         );
         if (res) {
             alert("Data Stored");
-            alert("Welcome to the UpBringing");
-            navigate("/");
+            navigate("/Verification");
         }
         else {
             alert("Please fill the data");

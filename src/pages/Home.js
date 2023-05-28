@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <>
+    <div className='bg-[#fff6ea]'>
 
       <div>
         <Navbar />
@@ -18,7 +18,7 @@ function Home() {
       <div>
         <Footer/>
       </div>
-    </>
+    </div>
   )
 }
 

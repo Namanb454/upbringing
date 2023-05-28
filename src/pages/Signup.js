@@ -1,7 +1,4 @@
 import React from 'react'
-
-// import Navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
 import SignupCard from '../components/SignupCard'
 import '../signup.css'
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import '../signup.css'
-import Informationcard from '../components/Informationcard'
+import VerificationCard from '../components/VerificationCard'
 
 
-function Information() {
+function Verfication() {
     return (
         <div>
             
@@ -11,7 +11,7 @@ function Information() {
 
                 <img className='lg:relative md:relative lg:w-[100%] lg:h-[102vh] md:h-[60vh] h-0 ' src='images/SignUpbg.png' alt='img' id='backgroundimg' />
                 <div className='md:mx-auto'>
-                    <Informationcard />
+                    <VerificationCard />
                 </div>
             </div>
 
@@ -19,4 +19,4 @@ function Information() {
     )
 }
 
-export default Information
+export default Verfication

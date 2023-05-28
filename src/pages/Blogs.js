@@ -6,7 +6,7 @@ import Cards from '../components/Cards'
 
 function Blogs() {
     return (
-        <div>
+        <div className='bg-[#fff6ea]'>
             <div>
                 <Navbar />
             </div>
@@ -21,9 +21,6 @@ function Blogs() {
                 </div>
             </div>
                     <Cards />
-
-            {/* <div> */}
-            {/* </div> */}
             <div>
                 <Footer />
             </div>

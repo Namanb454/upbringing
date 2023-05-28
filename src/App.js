@@ -11,6 +11,7 @@ import Signup from './pages/Signup';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Information from './pages/Information';
+import Verification from './pages/Verification';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/blogs" element={<Blogs />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/information" element={<Information />} />
+          <Route exact path="/verification" element={<Verification />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </div>

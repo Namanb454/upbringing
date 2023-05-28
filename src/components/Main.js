@@ -232,7 +232,7 @@ function Main() {
 
                 {/* Be first in the queue to experience the future of parenting */}
 
-                <div className='flex w-fit lg:mx- lg:h-96 md:h-80 h-80 pb-10' id='group6'>
+                <div className='flex w-fit lg:h-96 md:h-80 h-80 mb-20 pb-10' id='group6'>
                     <div className='w- lg:ml-20 md:ml-10 mx-5'>
                         <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
                         <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>

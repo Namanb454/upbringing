@@ -21,7 +21,7 @@ function SignupCard() {
             localStorage.setItem("email", data.user.email)
 
             navigate("/information");
-            alert("Welcome to the UpBringing");
+            
         })
     }
 
