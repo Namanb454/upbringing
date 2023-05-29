@@ -146,7 +146,7 @@ function Main() {
 
 
 
-                <div className=" w-[100%] h-[50vh] mx-auto lg:my-10 md:my-10 md:pt-0 flex cursor-auto">
+                <div className=" w-[100%] lg:h-auto md:h-[50vh] mx-auto lg:my-10 md:my-10 md:pt-0 flex">
                     <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col mb-16 md:mb-0 text-center">
                         <div id='' className='relative lg:h-auto h-[50vh] text-center' >
 
@@ -155,7 +155,7 @@ function Main() {
 
                             {/* carousel */}
                             <div onChange="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3"
-                                className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-[40%] h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#FFEDD6]" id='carousel'>
+                                className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-[40%] h-[40%] lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#FFEDD6]" id='carousel'>
 
                                 <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
 
