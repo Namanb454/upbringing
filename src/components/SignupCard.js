@@ -65,7 +65,7 @@ function SignupCard() {
                     </Link>
                 </div>
 
-                <h2 className='w- lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 mb-20' id='signupHeading' >
+                <h2 className='w- lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 md:mb-10 mb-20' id='signupHeading' >
                     We start the journey of making your kid
                     <div className='w-fit mx-auto' id='signupsubHeading'>
 

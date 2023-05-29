@@ -74,7 +74,7 @@ function Main() {
                             <div className='lg:pr-5 md:-ml-10 -ml-10 h-0 mt-10'>
                                 <img className='lg:w-20 md:w-20 w-10' data-aos="fade-down" data-aos-delay="200" src='images/icon1.png' alt='img' />
                             </div>
-                            <h1 className="title-font lg:text-8xl md:text-7xl text-[40px] mx-auto mb-10 font-medium text-gray-900" data-aos="fade-zoom-in" data-aos-delay="400" id='heading'>We Bring out The best
+                            <h1 className="title-font lg:text-8xl md:text-7xl text-[40px] mx-auto mb-10 font-medium text-gray-900" data-aos="zoom-in" data-aos-delay="400" id='heading'>We Bring out The best
                                 <br />
                                 <div className="">in You and Your kids</div>
                             </h1>
@@ -86,19 +86,19 @@ function Main() {
                             </div>
                         </div>
                         <div className='mx-auto '>
-                            <p className="mb- mx-auto text-black text-center font-bold leading-9" id='main1'>By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                            <p className="mb- mx-auto text-black text-center font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
                         </div>
                         <div className='relative flex w-full'>
                             <div className='mr-auto lg:ml-[15%] ml-[2%] lg:w-20 md:w-16 w-12'>
-                                <img src='images/icon5.png' alt='img' />
+                                <img src='images/icon5.png' data-aos="fade-right" data-aos-delay="200" alt='img' />
                             </div>
 
                             <div className='ml-auto lg:mr-[15%] mr-[2%] lg:w-36 md:w-32 w-24'>
-                                <img src='images/icon6.png' alt='img' />
+                                <img src='images/icon6.png' data-aos="fade-left" data-aos-delay="200" alt='img' />
                             </div>
                         </div>
 
-                        <Link to='/signup' className="inline-flex mb-10 items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
+                        <Link to='/signup' className="inline-flex mb-10 items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Queue up for Growth
                         </Link>
                         <div className='w-[100%]'>
                             <img className="w-[100%] object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
@@ -131,9 +131,9 @@ function Main() {
                         valuable parenting skills through a fun and interactive gamified approach.</p>
 
                     <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-[100%]'>
-                        <button className="mx-5 bg-white text-black py-1 px-6 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
-                        </button>
-                        <Link to='/signup' className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
+                        <Link to='/about' className="mx-5 bg-white text-black py-[7px] px-6 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
+                        </Link>
+                        <Link to='/signup' className="inline-flex mb-10 items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:mt-0" id='button1'>Queue up for Growth
                         </Link>
 
                     </div>
@@ -146,23 +146,24 @@ function Main() {
 
 
 
-                <div className=" w-[100%] mx-auto  my-10 flex ">
-                    <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col  mb-16 md:mb-0 text-center">
-                        <div id='' className='relative lg:h-auto h-96 text-center' >
+                <div className=" w-[100%] h-[50vh] mx-auto lg:my-10 md:my-10 md:pt-0 flex cursor-auto">
+                    <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col mb-16 md:mb-0 text-center">
+                        <div id='' className='relative lg:h-auto h-[50vh] text-center' >
 
-                            <img className="lg:w-[100%] md:w-[100%] object-cover lg:h-auto h-full object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
+                            <img className="lg:w-[100%] md:w-[100%] object-cover lg:h-auto h-[100%] object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
 
 
                             {/* carousel */}
-                            <div onChange="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3" className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-32 h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#FFEDD6]" id='carousel'>
+                            <div onChange="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3"
+                                className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-[40%] h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#FFEDD6]" id='carousel'>
 
                                 <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-0 my-auto'>
 
-                                        <img src="/images/childstep1.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+                                        <img src="/images/childstep1.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-6 leading-4' id='about2' >Here you start with us, and at this stage our primary focus revolves around motor & cognitive development of a child, by providing personalized & interesting toys to develop the same.02</p>
+                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-8 leading-4' id='about2' >Here you start with us, and at this stage our primary focus revolves around motor & cognitive development of a child, by providing personalized & interesting toys to develop the same.02</p>
 
                                     </div>
                                 </div>
@@ -170,9 +171,9 @@ function Main() {
 
                                     <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
 
-                                        <img src="/images/childstep2.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+                                        <img src="/images/childstep2.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center lg:leading-8 md:leading-6 leading-4' id='about2' >At this time we delve more deeper by focusing on the basics of STEM (Science, Technology, Engineering, and Mathematics) education by providing educational toys, resources & gamified platforms to learn</p>
+                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-8 leading-4' id='about2' >At this time we delve more deeper by focusing on the basics of STEM (Science, Technology, Engineering, and Mathematics) education by providing educational toys, resources & gamified platforms to learn</p>
 
                                     </div>
                                 </div>
@@ -180,9 +181,9 @@ function Main() {
 
                                     <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
 
-                                        <img src="/images/childstep3.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+                                        <img src="/images/childstep3.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center lg:leading-8 md:leading-6 leading-4' id='about2' >This age block is crucial for us as we try to  identify one niche, based on a kid’s interest & takes a stem further in that + focusing on STEM as a Major here.</p>
+                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-8 leading-4' id='about2' >This age block is crucial for us as we try to  identify one niche, based on a kid’s interest & takes a stem further in that + focusing on STEM as a Major here.</p>
 
                                     </div>
                                 </div>
@@ -190,9 +191,9 @@ function Main() {
 
                                     <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
 
-                                        <img src="/images/childstep4.png" className="relative lg:w-[25%] md:w-[15%] w-[25%] lg:-left-[5%]" alt='img' />
+                                        <img src="/images/childstep4.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black my-auto lg:text-base md:text-base text-xs lg:text-left md:text-left text-center lg:leading-6 md:leading-6 leading-0' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
+                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-7 leading-4' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
 
                                     </div>
                                 </div>
@@ -202,9 +203,9 @@ function Main() {
                             {/* Click on the button to know how  */}
 
                             <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-[100%]' id='group5heading'>We help parents at child’s every step</div>
-                            <p className="absolute w-[100%] lg:top-44 md:top-20 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
+                            <p className="absolute w-[100%] lg:top-44 md:top-24 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
-                            <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-52 bottom-44 w-[100%]'>
+                            <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-64 bottom-44 w-[100%]'>
                                 <a href='#item1' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
                                 </a>
                                 <a href='#item2' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white  lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter1} id='button1'>02-05
@@ -243,8 +244,8 @@ function Main() {
                         <p className="lg:w-[70%] md:w-[100%] w-[100%] lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-5 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
                         <div className='mx- w-fit lg:mt-5 md:mt-5 mt-4'>
-                            <Link to='/signup' className="bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
-                            </Link>
+                            <button className="mx-5 bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Sign Up
+                            </button>
                         </div>
                     </div>
                     <div className=''>

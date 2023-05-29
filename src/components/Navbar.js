@@ -78,7 +78,7 @@ export default function Navbar() {
                   <li className="my-2 uppercase">
                     <Link to="/contact">Contact Us</Link>
                   </li>
-                  <Link to='/signup' className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base md:my-0 my-5  md:mt-10" id='button1'>Choose Your Plan
+                  <Link to='/signup' className="mx-5 bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base md:my-0 my-5  md:mt-10" id='button1'>Queue up for Growth
                   </Link>
 
 
@@ -110,7 +110,7 @@ export default function Navbar() {
             <Link to='/blogs' id="navbarLinks" className="mr-10 hover:text-gray-900">Resources</Link>
             <Link to='/contact' id="navbarLinks" className="mr-10 hover:text-gray-900">Contact Us</Link>
           </nav>
-          <Link to='/signup' className="mx-5 lg:flex md:hidden hidden bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
+          <Link to='/signup' className="mx-5 lg:flex md:hidden hidden bg-red-500 text-white  py-1 px-2 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Queue up for Growth
           </Link>
         </div>
       </header>
