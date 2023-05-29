@@ -6,7 +6,7 @@ import Cards from '../components/Cards'
 
 function Blogs() {
     return (
-        <div className='bg-[#fff6ea]'>
+        <div className='bg-[#fff6ea] container mx-auto'>
             <div>
                 <Navbar />
             </div>

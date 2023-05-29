@@ -5,13 +5,13 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className='bg-[#fff6ea] container mx-auto'>
+    <div className='bg-white container mx-auto'>
 
       <div>
         <Navbar />
       </div>
 
-      <div>
+      <div className=''>
         <Main />
       </div>
 

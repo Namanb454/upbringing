@@ -17,7 +17,7 @@ function About() {
 
 
   return (
-    <div className='bg-[#fff6ea]'>
+    <div className='bg-[#fff6ea] container mx-auto'>
       <div>
         <Navbar />
       </div>
@@ -64,7 +64,7 @@ function About() {
         </div>
 
         {/* carousel */}
-        <div className="carousel w-fit lg:h-96 md:h-96 h-60 lg:mx-5 md:mx-5 bg-[#1E0E13]">
+        <div className="carousel container mx-auto lg:h-96 md:h-96 h-60 bg-[#1E0E13]">
           <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
             <img src="/images/about1.png" className="relative lg:w-1/2 md:w-1/2 w-0 " alt='img' />
             <div className='lg:w-1/2 md:w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
