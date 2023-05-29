@@ -61,11 +61,11 @@ function Main() {
     }
 
     return (
-        <div className='container mx-auto' id='main' >
+        <div className='' id='main' >
 
 
-            <section className="container mx-auto text-gray-600 body-font">
-                <div className="container mx-auto flex px- py-10 md:flex-row flex-col items-center">
+            <section className="w-[100%] mx-auto text-gray-600 body-font">
+                <div className=" mx-auto flex px- py-10 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
                         <div className='flex mx-auto'>
                             <div className='lg:pr-10 h-0 lg:mt-32 md:mt-32 mt-24'>
@@ -85,7 +85,7 @@ function Main() {
                                 <img className='lg:w-14 md:w-14 w-10' data-aos="fade-down" data-aos-delay="200" src='images/icon3.png' alt='img' />
                             </div>
                         </div>
-                        <p className="mb-8 text-black text-center font-bold leading-9" id='main1'>By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                        <p className="mb-8 mx-auto text-black text-center font-bold leading-9" id='main1'>By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
 
                         <Link to='/signup' className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </Link>
@@ -106,7 +106,7 @@ function Main() {
                         </h1>
                     </div>
                 </div>
-                <div className='container mx-auto'>
+                <div className=' mx-auto'>
                     <Explore />
                 </div>
 
@@ -135,7 +135,7 @@ function Main() {
 
 
 
-                <div className="container w-[100%] mx-auto  my-10 flex ">
+                <div className=" w-[100%] mx-auto  my-10 flex ">
                     <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col  mb-16 md:mb-0 text-center">
                         <div id='' className='relative lg:h-auto h-96 text-center' >
 
@@ -211,6 +211,7 @@ function Main() {
                     </div>
                 </div>
 
+                {/* How we help Parents */}
 
                 <div className="container lg:mx-auto flex lg:mt-20 lg:py-0 md:py-10 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
@@ -219,13 +220,13 @@ function Main() {
                         </h1>
                     </div>
                 </div>
-                <div className='container mx-auto'>
+                <div className=' mx-auto'>
                 <Explore1 />
                 </div>
 
                 {/* Be first in the queue to experience the future of parenting */}
 
-                <div className='flex w-fit lg:mx-auto lg:h-96 md:h-80 h-80 mb-20 pb-10' id='group6'>
+                <div className='flex w-[100%] lg:mx-auto lg:h-96 md:h-80 h-80 mb-20 pb-10' id='group6'>
                     <div className='w- lg:mx-auton md:ml-10 '>
                         <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
                         <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>

@@ -5,7 +5,7 @@ function Cards() {
     return (
         <div>
             <section className="w-fit mx-auto text-gray-600 body-font">
-                <div className="container flex lg:px-52 md:px-0 py-10">
+                <div className="flex  md:px-0 py-10">
                     <div className="flex flex-wrap px- -m-4 mx-auto">
                     <div className="lg:w-96 md:w-96 lg:mx-5 lg:px-0 md:px-5" id='card'>
                         <div className="h-96 bg-opacity-75 px-8 pt-10 pb-24 overflow-hidden relative" id='cards1'>
@@ -28,7 +28,7 @@ function Cards() {
                         </div>
                     </div>
                 </div>
-                <div className="container flex lg:px-52 md:px-0 py-10">
+                <div className="flex md:px-0 py-10">
                     <div className="flex flex-wrap px- -m-4 mx-auto">
                     <div className="lg:w-96 md:w-96 lg:mx-5 lg:px-0 md:px-5" id='card'>
                         <div className="h-96 bg-opacity-75 px-8 pt-10 pb-24 overflow-hidden relative" id='cards1'>

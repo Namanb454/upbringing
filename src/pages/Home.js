@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className='bg-white container mx-auto'>
+    <div className='bg-white w-max-[1536px] mx-auto'>
 
       <div>
         <Navbar />

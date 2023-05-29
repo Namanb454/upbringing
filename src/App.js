@@ -16,7 +16,8 @@ import Verification from './pages/Verification';
 function App() {
   return (
     <Router>
-      <div>
+      {/* <div className='w-[100%]'> */}
+      <>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
@@ -26,7 +27,8 @@ function App() {
           <Route exact path="/verification" element={<Verification />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-      </div>
+      {/* </div> */}
+      </>
     </Router>
   );
 }

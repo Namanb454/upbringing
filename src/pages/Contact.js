@@ -59,11 +59,11 @@ function Contact() {
 
 
     return (
-        <div className='bg-[#fff6ea] container mx-auto'>
+        <div className='bg-[#fff6ea] mx-auto'>
             <div>
                 <Navbar />
             </div>
-            <div className="container bg-[#fff6ea] lg:mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
+            <div className=" bg-[#fff6ea] lg:mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
                 <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
                     <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' data-aos="zoom-out" data-aos-delay="200" id='about1heading'>CONTACT US</h2>
                     <div className='flex mx-auto'>
@@ -73,7 +73,7 @@ function Contact() {
 
 
                     <section className="text-white body-font relative">
-                        <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
+                        <div className=" mx-auto flex sm:flex-nowrap flex-wrap">
 
 
 

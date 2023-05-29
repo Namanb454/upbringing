@@ -14,7 +14,7 @@ function VerificationCard() {
 
 
     return (
-        <div className='lg:absolute md:absolute container mx-auto lg:top-0 md:top-0 top-0 md:mx-24 lg:mx-64' id='card1'>
+        <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-0 top-0 md:mx-24 lg:mx-64' id='card1'>
 
             <div className='lg:h-[80vh] md:h-[50vh] h-[100vh] lg:w-3/4 mx-auto lg:my-[8%] mb-0 lg:py-0 md:py-0 lg:rounded-3xl' id='card2'>
                 <div className="container mx-auto flex flex-wrap py-5 flex-col items-center">

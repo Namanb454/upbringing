@@ -17,13 +17,13 @@ function About() {
 
 
   return (
-    <div className='bg-[#fff6ea] container mx-auto'>
+    <div className='bg-[#fff6ea] mx-auto'>
       <div>
         <Navbar />
       </div>
 
       <div id='bgcolor'>
-        <div className="container lg:mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
+        <div className="mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
             <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' data-aos="zoom-out" data-aos-delay="200" id='about1heading'>OUR STORY</h2>
             <div className='flex mx-auto'>
@@ -64,7 +64,7 @@ function About() {
         </div>
 
         {/* carousel */}
-        <div className="carousel container mx-auto lg:h-96 md:h-96 h-60 bg-[#1E0E13]">
+        <div className="carousel mx-auto lg:h-96 md:h-96 h-60 bg-[#1E0E13]">
           <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
             <img src="/images/about1.png" className="relative lg:w-1/2 md:w-1/2 w-0 " alt='img' />
             <div className='lg:w-1/2 md:w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
@@ -106,7 +106,7 @@ function About() {
 
 
 
-      <div className="container lg:mx-auto md:mx-auto flex lg:py-10 md:py-10 py-10 flex-col items-center" id='bgcolor'>
+      <div className=" lg:mx-auto md:mx-auto flex lg:py-10 md:py-10 py-10 flex-col items-center" id='bgcolor'>
         <div className="lg:flex-grow md:w-1/2 lg:my-20 md:my-20 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
           <h2 className=' lg:text-xl md:text-xl mx-auto text-xl lg:mb-5 md:mb-5 mb-5' id='about1heading'>OUR VALUES</h2>
           <h1 className="title-font lg:text-8xl md:text-7xl mx-auto text-5xl mb-10 font-medium text-gray-900" id='about2heading'>We believe that children
