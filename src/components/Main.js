@@ -216,7 +216,7 @@ function Main() {
                                 </a>
                             </div>
                             <div className='absolute lg:flex-0 flex lg:bottom-[34%] md:bottom-[32.5%] bottom-[34%] w-[100%]'>
-                                <img className="lg:w-64 md:w-48 w-28 lg:-mx-52 md:-mx-40 -mx-[22%]"
+                                <img className="lg:w-64 md:w-48 w-[30%] lg:-mx-52 md:-mx-40 -mx-[22%]"
                                     src='images/Group5Train.png' alt='img' id='train' />
                             </div>
                         </div>
