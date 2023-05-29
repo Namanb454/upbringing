@@ -1,3 +1,4 @@
+// import firebase from 
 import { React, useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
@@ -5,10 +6,34 @@ import '../signupcard.css'
 // import { carriers } from '../constants/signupCarriers';
 import { FcGoogle } from 'react-icons/fc';
 import { auth, provider } from "./firebase";
-import { signInWithPopup } from "firebase/auth";
+import { createUserWithEmailAndPassword, sendEmailVerification, signInWithPopup } from "firebase/auth";
 
 
 function SignupCard() {
+    const [passowrd, setPassword] = useState();
+    const [email, setEmail] = useState();
+    useEffect(() => {
+        // handleSubmit()
+        console.log("hello")
+    }, [])
+    const handleSubmit = () => {
+
+        // auth.createUserWithEmailAndPassword(email,passowrd).then((user)=>{
+        //     console.log(user);
+        //     user.user.sendEmailVerification();
+        // })
+        // firebase
+        console.log(email)
+        createUserWithEmailAndPassword(auth, email, passowrd).then((usercred) => {
+            console.log(usercred.user);
+            sendEmailVerification(auth.currentUser).then(() => {
+                console.log("email sent")
+            })
+        }).catch((error) => {
+            console.log(error);
+        })
+    }
+
     // Authentication Continue with Google
     const [value, setValue] = useState('')
 
@@ -21,7 +46,7 @@ function SignupCard() {
             localStorage.setItem("email", data.user.email)
 
             navigate("/information");
-            
+            alert("Welcome to the UpBringing");
         })
     }
 
@@ -43,7 +68,7 @@ function SignupCard() {
 
                 <h2 className='w- lg:text-5xl text-4xl text-center lg:mx-20 mx-5 lg:mb-5 mb-20' id='signupHeading' >
                     We start the journey of making your kid
-                        <div className='w-fit mx-auto' id='signupsubHeading'>
+                    <div className='w-fit mx-auto' id='signupsubHeading'>
 
                         <Typewriter
                             options={{
@@ -54,8 +79,8 @@ function SignupCard() {
                                     'Engineer', 'Doctor', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer', 'Teacher'
                                 ],
                             }} />
-                            </div>
-                    
+                    </div>
+
                 </h2>
 
 
@@ -65,9 +90,20 @@ function SignupCard() {
                 <div className="flex w-cover mx-20 items-end">
                     <div className="relative w-full text-left">
                         <label for="hero-field" className="leading-7 text-xs text-gray-500" >Email Address</label>
-                        <input type="email" id="email" placeholder='we saved a place for your email' name="email" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                        <input onChange={(e) => {
+                            console.log(e.target.value)
+                            setEmail(e.target.value)
+                        }} type="email" id="email" placeholder='we saved a place for your email' name="email" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                    </div>
+                    <div className="relative w-full text-left">
+                        <label for="hero-field" className="leading-7 text-xs text-gray-500" >Password</label>
+                        <input onChange={(e) => {
+                            console.log(e.target.value)
+                            setPassword(e.target.value)
+                        }} type="password" id="password" placeholder='we saved a place for your email' name="password" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                     </div>
                 </div>
+
                 <div className='w-full py-1'>
                     <h2 className='text-center text-black'>
                         or
@@ -89,8 +125,12 @@ function SignupCard() {
                     <label for="default-checkbox" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300" required>Help Us Improve the service by <b> giving us your few minutes on a call</b> </label>
                 </div>
                 <div className='w-fit my-auto mx-auto'>
-                    <button className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>Next
-                    </button>
+
+                    <div onClick={(e) => {
+                        e.preventDefault();
+                        handleSubmit()
+                    }} className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>Next
+                    </div>
                 </div>
             </div>
         </div>

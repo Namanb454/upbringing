@@ -61,10 +61,10 @@ function Main() {
     }
 
     return (
-        <div className='w-[100%]' id='main' >
+        <div className='container mx-auto' id='main' >
 
 
-            <section className="w-[100%] text-gray-600 body-font">
+            <section className="container mx-auto text-gray-600 body-font">
                 <div className="container mx-auto flex px- py-10 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center" id='main1'>
                         <div className='flex mx-auto'>
@@ -99,14 +99,14 @@ function Main() {
 
                 {/* How we help kids  */}
 
-                <div className="container lg:mx-auto flex lg:mt-10 md:mt-10 lg:py-0 md:py-0 py-10 md:mx-auto flex-col items-center" >
+                <div className="container  lg:mx-auto flex lg:mt-10 md:mt-10 lg:py-0 md:py-0 py-10 md:mx-auto flex-col items-center" >
                     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
 
                         <h1 className="title-font lg:text-8xl md:text-7xl lg:mx-auto text-5xl lg:mb-0 md:mb-0 mb-10 font-medium text-gray-900" id='about2heading'>How we help kIds
                         </h1>
                     </div>
                 </div>
-                <div>
+                <div className='container mx-auto'>
                     <Explore />
                 </div>
 
@@ -135,7 +135,7 @@ function Main() {
 
 
 
-                <div className="container mx-auto my-10 flex items-center">
+                <div className="container w-[100%] mx-auto  my-10 flex ">
                     <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col  mb-16 md:mb-0 text-center">
                         <div id='' className='relative lg:h-auto h-96 text-center' >
 
@@ -143,7 +143,7 @@ function Main() {
 
 
                             {/* carousel */}
-                            <div onChange="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3" className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-32 h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#F4AD39]" id='carousel'>
+                            <div onChange="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3" className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-32 h-36 lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#FFEDD6]" id='carousel'>
 
                                 <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
 
@@ -188,16 +188,7 @@ function Main() {
                             </div>
 
 
-
-
-
-
-
-
-
-
-
-
+                            {/* Click on the button to know how  */}
 
                             <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-[100%]' id='group5heading'>We help parents at child’s every step</div>
                             <p className="absolute w-[100%] lg:top-44 md:top-20 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
@@ -228,12 +219,14 @@ function Main() {
                         </h1>
                     </div>
                 </div>
+                <div className='container mx-auto'>
                 <Explore1 />
+                </div>
 
                 {/* Be first in the queue to experience the future of parenting */}
 
-                <div className='flex w-fit lg:h-96 md:h-80 h-80 mb-20 pb-10' id='group6'>
-                    <div className='w- lg:ml-20 md:ml-10 mx-5'>
+                <div className='flex w-fit lg:mx-auto lg:h-96 md:h-80 h-80 mb-20 pb-10' id='group6'>
+                    <div className='w- lg:mx-auton md:ml-10 '>
                         <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
                         <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 

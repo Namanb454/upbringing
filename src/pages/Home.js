@@ -5,18 +5,18 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className='bg-[#fff6ea]'>
+    <div className='bg-[#fff6ea] container mx-auto'>
 
       <div>
         <Navbar />
       </div>
 
       <div>
-        <Main/>
-      </div> 
+        <Main />
+      </div>
 
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   )
