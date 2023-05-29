@@ -85,9 +85,20 @@ function Main() {
                                 <img className='lg:w-14 md:w-14 w-10' data-aos="fade-down" data-aos-delay="200" src='images/icon3.png' alt='img' />
                             </div>
                         </div>
-                        <p className="mb-8 mx-auto text-black text-center font-bold leading-9" id='main1'>By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                        <div className='mx-auto '>
+                            <p className="mb- mx-auto text-black text-center font-bold leading-9" id='main1'>By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                        </div>
+                        <div className='relative flex w-full'>
+                            <div className='mr-auto lg:ml-[15%] ml-[2%] lg:w-20 md:w-16 w-12'>
+                                <img src='images/icon5.png' alt='img' />
+                            </div>
 
-                        <Link to='/signup' className="inline-flex items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
+                            <div className='ml-auto lg:mr-[15%] mr-[2%] lg:w-36 md:w-32 w-24'>
+                                <img src='images/icon6.png' alt='img' />
+                            </div>
+                        </div>
+
+                        <Link to='/signup' className="inline-flex mb-10 items-center font-sans bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5  md:mt-0" id='button1'>Choose Your Plan
                         </Link>
                         <div className='w-[100%]'>
                             <img className="w-[100%] object-cover object-center rounded-lg md:mt-0" src="images/Group2.png" alt="step" />
@@ -227,9 +238,9 @@ function Main() {
                 {/* Be first in the queue to experience the future of parenting */}
 
                 <div className='flex w-[100%] lg:mx-auto lg:h-96 md:h-80 h-80 mb-20 pb-10' id='group6'>
-                    <div className='md:ml-10 '>
-                        <h2 className='lg:w-[80%] md:w-[75%] w-[70%] lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl  text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
-                        <p className="lg:w-[70%] md:w-[100%] w-[100%] lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
+                    <div className='md:ml-10 ml-5'>
+                        <h2 className='lg:w-[80%] md:w-[100%] w-[100%] lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-3xl  text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
+                        <p className="lg:w-[70%] md:w-[100%] w-[100%] lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-5 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
                         <div className='mx- w-fit lg:mt-5 md:mt-5 mt-4'>
                             <Link to='/signup' className="bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up

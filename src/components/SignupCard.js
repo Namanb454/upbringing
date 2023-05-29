@@ -10,36 +10,35 @@ import { createUserWithEmailAndPassword, sendEmailVerification, signInWithPopup 
 
 
 function SignupCard() {
+    const navigate = useNavigate();
+    // Authentication With Email & Password 
     const [passowrd, setPassword] = useState();
     const [email, setEmail] = useState();
     useEffect(() => {
-        // handleSubmit()
-        console.log("hello")
+        // console.log("hello")
     }, [])
     const handleSubmit = () => {
-
-        // auth.createUserWithEmailAndPassword(email,passowrd).then((user)=>{
-        //     console.log(user);
-        //     user.user.sendEmailVerification();
-        // })
-        // firebase
-        console.log(email)
+        console.log(email);
         createUserWithEmailAndPassword(auth, email, passowrd).then((usercred) => {
+            alert("Check Your Mail Box & Verify Your Email");
             console.log(usercred.user);
             sendEmailVerification(auth.currentUser).then(() => {
-                console.log("email sent")
+                console.log("email sent");
+                navigate("/information");
             })
         }).catch((error) => {
             console.log(error);
+            if (passowrd.length < 6) {
+                alert("Password Should be 6 Characters At Least");
+            }
+            else {
+                alert("User Already Exists");
+            }
         })
     }
 
     // Authentication Continue with Google
     const [value, setValue] = useState('')
-
-
-    const navigate = useNavigate();
-
     const handleClick = () => {
         signInWithPopup(auth, provider).then((data) => {
             setValue(data.user.email)
@@ -87,20 +86,20 @@ function SignupCard() {
                 <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
                     Create an account
                 </h2>
-                <div className="flex w-cover mx-20 items-end">
-                    <div className="relative w-full text-left">
+                <div className="flex w-cover mx-10 items-end">
+                    <div className="relative mx-2 w-full text-left">
                         <label for="hero-field" className="leading-7 text-xs text-gray-500" >Email Address</label>
                         <input onChange={(e) => {
                             console.log(e.target.value)
                             setEmail(e.target.value)
-                        }} type="email" id="email" placeholder='we saved a place for your email' name="email" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                        }} type="email" id="email" placeholder='Enter Your Email Address' name="email" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                     </div>
-                    <div className="relative w-full text-left">
+                    <div className="relative mx-2 w-full text-left">
                         <label for="hero-field" className="leading-7 text-xs text-gray-500" >Password</label>
                         <input onChange={(e) => {
                             console.log(e.target.value)
                             setPassword(e.target.value)
-                        }} type="password" id="password" placeholder='we saved a place for your email' name="password" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                        }} type="password" id="password" placeholder='Choose 6 character password' name="password" className="w-full bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border border-gray-900  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                     </div>
                 </div>
 
@@ -126,11 +125,11 @@ function SignupCard() {
                 </div>
                 <div className='w-fit my-auto mx-auto'>
 
-                    <div onClick={(e) => {
+                    <button onClick={(e) => {
                         e.preventDefault();
                         handleSubmit()
                     }} className=" font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>Next
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

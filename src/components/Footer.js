@@ -35,15 +35,15 @@ function Footer() {
                 </div>
 
                 <div className='w-[100%] lg:mt-10 mt-10 lg:pb-5 pb-5'>
-                    <button className='lg:w-[20%] text-center'>
+                    <button className=' lg:mx-16 md:mx-[15%] mx-5 text-center'>
                         Leave a request
                     </button>
 
                     <div className='lg:flex'>
                         <div className='flex lg:mx-0 h-10 my-10'>
                             <input type="email" name="email" placeholder='We saved a spot for your email' className='flex lg:mx-1 mx-auto px-2 lg:w-60 w-60 lg:h-auto py-2  bg- text-white lg:ml-16' id='footer1'
-                                 />
-                            
+                            />
+
 
                             <div className='flex mx-auto w-fit rounded-3xl'>
                                 <Link to='/signup' className=" bg-white text-black py-2 md:py-2 px-6 md:px-3 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0 rounded-3xl" id='button2'>Sign Up

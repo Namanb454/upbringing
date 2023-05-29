@@ -58,7 +58,7 @@ function Informationcard() {
             }
         );
         if (res) {
-            alert("Data Stored");
+            // alert("Data Stored");
             navigate("/Verification");
         }
         else {
