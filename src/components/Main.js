@@ -204,7 +204,7 @@ function Main() {
                                 </a>
                             </div>
                             <div className='absolute lg:flex-0 flex lg:bottom-[34%] md:bottom-[32.5%] bottom-[34%] w-[100%]'>
-                                <img className="lg:w-64 md:w-48 w-28"
+                                <img className="lg:w-64 md:w-48 w-28 lg:-mx-52 md:-mx-40 -mx-[22%]"
                                     src='images/Group5Train.png' alt='img' id='train' />
                             </div>
                         </div>
@@ -221,23 +221,23 @@ function Main() {
                     </div>
                 </div>
                 <div className=' mx-auto'>
-                <Explore1 />
+                    <Explore1 />
                 </div>
 
                 {/* Be first in the queue to experience the future of parenting */}
 
                 <div className='flex w-[100%] lg:mx-auto lg:h-96 md:h-80 h-80 mb-20 pb-10' id='group6'>
-                    <div className='w- lg:mx-auton md:ml-10 '>
-                        <h2 className='lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl w-fit text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
-                        <p className="w- lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
+                    <div className='md:ml-10 '>
+                        <h2 className='lg:w-[80%] md:w-[75%] w-[70%] lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-xl  text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
+                        <p className="lg:w-[70%] md:w-[100%] w-[100%] lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-11 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
                         <div className='mx- w-fit lg:mt-5 md:mt-5 mt-4'>
                             <Link to='/signup' className="bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto text-base my-5 md:mt-0" id='button2'>Sign Up
                             </Link>
                         </div>
                     </div>
-                    <div className='my-auto ml-auto'>
-                        <img src='images/Group7.png' alt='img' />
+                    <div className=''>
+                        <img className='my-auto ml-auto w-[100%]' src='images/Group7.png' alt='img' />
                     </div>
                 </div>
 
