@@ -146,9 +146,9 @@ function Main() {
 
 
 
-                <div className=" w-[100%] lg:h-auto md:h-[50vh] mx-auto lg:my-10 md:my-10 md:pt-0 flex">
+                <div className=" w-[100%] lg:h-auto md:h-[50vh] h-[75vh] mx-auto lg:my-10 md:my-10 md:pt-0 flex">
                     <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col mb-16 md:mb-0 text-center">
-                        <div id='' className='relative lg:h-auto h-[50vh] text-center' >
+                        <div id='' className='relative lg:h-auto md:h-[50vh] h-[75vh] text-center' >
 
                             <img className="lg:w-[100%] md:w-[100%] object-cover lg:h-auto h-[100%] object-center md:mt-0 mt-" src="images/Group5.png" alt="step" />
 
@@ -205,7 +205,7 @@ function Main() {
                             <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-[100%]' id='group5heading'>We help parents at child’s every step</div>
                             <p className="absolute w-[100%] lg:top-44 md:top-24 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
-                            <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-64 bottom-44 w-[100%]'>
+                            <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-64 bottom-[45%] w-[100%]'>
                                 <a href='#item1' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
                                 </a>
                                 <a href='#item2' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white  lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0  md:mt-0" onClick={handleMouseEnter1} id='button1'>02-05
