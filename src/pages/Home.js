@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
+
 function Home() {
   return (
     <div className='bg-[#fff6ea] w-max-[1536px] mx-auto'>
@@ -18,6 +19,7 @@ function Home() {
       <div>
         <Footer />
       </div>
+
     </div>
   )
 }
