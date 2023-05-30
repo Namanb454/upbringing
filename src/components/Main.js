@@ -146,7 +146,7 @@ function Main() {
 
 
 
-                <div className=" w-[100%] lg:h-auto md:h-[50vh] h-[75vh] mx-auto lg:my-10 md:my-10 md:pt-0 flex">
+                <div className=" w-[100%] lg:h-auto md:h-[50vh] h-[75vh] mx-auto lg:my-10 md:my-10 mt-10 md:pt-0 flex">
                     <div className="lg:flex-grow w-[100%] lg:pr- md:pr- flex flex-col mb-16 md:mb-0 text-center">
                         <div id='' className='relative lg:h-auto md:h-[50vh] h-[75vh] text-center' >
 
@@ -155,7 +155,7 @@ function Main() {
 
                             {/* carousel */}
                             <div onChange="handleMouseEnter; handleMouseEnter1; handleMouseEnter2; handleMouseEnter3"
-                                className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-[40%] h-[40%] lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%] bg-[#FFEDD6]" id='carousel'>
+                                className="absolute carousel hidden lg:w-[60%] md:w-[70%] lg:h-52 md:h-[40%] h-[40%] lg:mx-auto md:mx-auto lg:top-10 md:top-0 top-0 lg:left-[20%] md:left-[15%]  bg-[#FFEDD6]" id='carousel'>
 
                                 <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
 
@@ -163,7 +163,7 @@ function Main() {
 
                                         <img src="/images/childstep1.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-8 leading-4' id='about2' >Here you start with us, and at this stage our primary focus revolves around motor & cognitive development of a child, by providing personalized & interesting toys to develop the same.02</p>
+                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center lg:leading-8 md:leading-8 leading-4' id='about2' >Here you start with us, and at this stage our primary focus revolves around motor & cognitive development of a child, by providing personalized & interesting toys to develop the same.02</p>
 
                                     </div>
                                 </div>
