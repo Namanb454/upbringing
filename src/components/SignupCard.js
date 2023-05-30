@@ -83,7 +83,7 @@ function SignupCard() {
                 </h2>
 
 
-                <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
+                <h2 className='mx-12 lg:mb-0 mb-5 text-black font-bold'>
                     Create an account
                 </h2>
                 <div className="flex w-cover mx-10 items-end">
