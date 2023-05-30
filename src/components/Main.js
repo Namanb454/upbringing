@@ -193,7 +193,7 @@ function Main() {
 
                                         <img src="/images/childstep4.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-7 leading-4' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
+                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-7 md:leading-7 leading-4' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
 
                                     </div>
                                 </div>
