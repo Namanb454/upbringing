@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { FiGlobe } from 'react-icons/fi';
@@ -8,19 +8,6 @@ import "../Contact.css"
 import { Link } from 'react-router-dom';
 
 function Contact() {
-
-    // Email js 
-    const form = useRef();
-    const sendEmail = (e) => {
-        e.preventDefault();
-        emailjs.sendForm('service_287wp26', 'template_t7o0g3a', form.current, 'yiibgYLHgLmwK7jbo')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
-
 
     const [userData, setUserData] = useState({
         to_name: "",
@@ -90,18 +77,7 @@ function Contact() {
                     <section className="text-white body-font relative">
                         <div className=" mx-auto flex sm:flex-nowrap flex-wrap">
 
-
-
-                            {/* <form ref={form} onSubmit={sendEmail}>
-                                <label>Name</label>
-                                <input type="text" name="user_name" />
-                                <label>Email</label>
-                                <input type="email" name="user_email" />
-                                <label>Message</label>
-                                <textarea name="message" />
-                                <input type="submit" value="Send" />
-                            </form> */}
-                            <form ref={form} onSubmit={sendEmail} method='post' className="lg:w-1/2 md:w-1/2 px-10 bg-[#F4F0E4] flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                            <form method='post' className="lg:w-1/2 md:w-1/2 px-10 bg-[#F4F0E4] flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                                 <h2 className="text-gray-900 text-xl mb-1 font-semibold title-font">Send a Message</h2>
 
                                 <div className="relative text-left mb-4">

@@ -1,5 +1,6 @@
 // import firebase from 
 import { React, useState, useEffect } from 'react'
+import emailjs from '@emailjs/browser';
 import { Link, useNavigate } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import '../signupcard.css'
@@ -10,6 +11,10 @@ import { createUserWithEmailAndPassword, sendEmailVerification, signInWithPopup 
 
 
 function SignupCard() {
+    // EmailJS 
+
+
+
     const navigate = useNavigate();
     // Authentication With Email & Password 
     const [passowrd, setPassword] = useState();

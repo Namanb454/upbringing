@@ -37,7 +37,7 @@ export const exploreWorlds1 = [
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    img: 'images/parent1.png',
+    img: 'images/parent2.png',
     title: 'Increasing Knowledge Quantum',
     desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
     prompt: 'Read more'
@@ -45,7 +45,7 @@ export const exploreWorlds1 = [
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    img: 'images/parent1.png',
+    img: 'images/parent3.png',
     title: 'A community of Parents',
     desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
     prompt: 'Read more'
