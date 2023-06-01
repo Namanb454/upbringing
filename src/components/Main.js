@@ -86,7 +86,7 @@ function Main() {
                             </div>
                         </div>
                         <div className='mx-auto '>
-                            <p className="mb- mx-auto text-black text-center font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                            <p className="mb- mx-auto text-base text-black text-center font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
                         </div>
                         <div className='relative flex w-full'>
                             <div className='mr-auto lg:ml-[15%] ml-[2%] lg:w-20 md:w-16 w-12'>

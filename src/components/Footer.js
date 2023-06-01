@@ -44,13 +44,11 @@ function Footer() {
                             <input type="email" name="email" placeholder='We saved a spot for your email' className='flex lg:mx-1  px-2 lg:w-60 w-60 lg:h-auto py-2  bg- text-white lg:ml-16 rounded-lg' id='footer1'
                             />
 
-
                             <div className='flex'>
-                                <Link to='/signup' className="w-full bg-white text-black py-2 md:py-2 px-4 md:px-3  focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0 rounded-lg" id='button2'>Sign Up
+                                <Link to='/signup' className="w-full bg-white text-black py-2 md:py-2 px-4 md:px-3 focus:outline-none hover:bg-black hover:text-white text-base md:mt-0 rounded-lg" id='button2'>SignUp
                                 </Link>
                             </div>
                         </div>
-
 
                         <span className="flex lg:ml-auto lg:mt- mt- lg:mx-20  w-[100%] justify-center md:w-auto">
 
