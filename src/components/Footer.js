@@ -40,13 +40,13 @@ function Footer() {
                     </button>
 
                     <div className='lg:flex'>
-                        <div className='flex lg:mx-0 md:mx-[30%] mx-[10%] h-10 my-10'>
+                        <div className='flex lg:mx-0 md:mx-[30%] mx-[7%] h-10 my-10'>
                             <input type="email" name="email" placeholder='We saved a spot for your email' className='flex lg:mx-1  px-2 lg:w-60 w-60 lg:h-auto py-2  bg- text-white lg:ml-16 rounded-lg' id='footer1'
                             />
 
 
-                            <div className='flex mx- w-fit rounded-3xl'>
-                                <Link to='/signup' className=" bg-white text-black py-2 md:py-2 px-4 md:px-3 focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0 rounded-lg" id='button2'>Sign Up
+                            <div className='flex'>
+                                <Link to='/signup' className="w-full bg-white text-black py-2 md:py-2 px-4 md:px-3  focus:outline-none hover:bg-black hover:text-white m- text-base md:mt-0 rounded-lg" id='button2'>Sign Up
                                 </Link>
                             </div>
                         </div>
