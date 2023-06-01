@@ -4,23 +4,23 @@ export const exploreWorlds = [
     imgUrl: '/planet-01.png',
     img: 'images/kid1.png',
     title: 'The Mind',
-    desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+    desc: 'Brain develops fastest between the age of two & eight years, and by providing the right Toys & resources that develops their creative & critical thinking, and making them strong on STEM subjects, we shape their Mind ',
     prompt: 'Read more'
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    img: 'images/kid2.png',
+    img: 'images/kid1.png',
     title: 'The Body',
-    desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+    desc: 'Children grow rapidly between the age of two & twelve, providing them with right nutrition and right resources to help them in development are very crucial, and we do the same',
     prompt: 'Read more'
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    img: 'images/kid3.png',
+    img: 'images/kid1.png',
     title: 'The Ethics',
-    desc: 'Brain develops fastest between the age of 2-8 years, and by providing the right Toys 7 resources that develops their creative & Critical thinking, and making them strong on STEM subjects, we shape their Mind.',
+    desc: "Child's body grow rapidly between age 2 to 12, and providing them with right nutrition and resources to help it grow is very crucial; We help parents learn about the science behind it and provide them with the right resources to make their child grow",
     prompt: 'Read more'
   },
 

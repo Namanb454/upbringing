@@ -78,15 +78,15 @@ function Main() {
                                 <br />
                                 <div className="">in You and Your kids</div>
                             </h1>
-                            <div className='lg:pr-5 md:-mr-10 -mr-10 h-0 lg:mt-28 md:mt-28 mt-24'>
+                            <div className='lg:pr-5 md:-mr-10 -mr-8 h-0 lg:mt-28 md:mt-28 mt-24'>
                                 <img className='lg:w-20 md:w-20 w-10' data-aos="fade-up" data-aos-delay="200" src='images/icon4.png' alt='img' />
                             </div>
                             <div className='lg:pl-10 h-0 mt-0'>
                                 <img className='lg:w-14 md:w-14 w-10' data-aos="fade-down" data-aos-delay="200" src='images/icon3.png' alt='img' />
                             </div>
                         </div>
-                        <div className='mx-auto '>
-                            <p className="mb- mx-auto text-base text-black text-center font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based <b> personalized and educational toys </b> that help nurture your child's <br /> curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                        <div className='w-[95vw] '>
+                            <p className="mb- mx-auto text-base text-black text-center font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based <b> personalized and educational toys </b> that help nurture your child's curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
                         </div>
                         <div className='relative flex w-full'>
                             <div className='mr-auto lg:ml-[15%] ml-[2%] lg:w-20 md:w-16 w-12'>
