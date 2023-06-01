@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import '../signupcard.css'
 
-function Informationcard() {
+function Informationcard2() {
     // EmailJS 
     const form = useRef();
 
@@ -32,8 +32,8 @@ function Informationcard() {
 
 
     const [userData, setUserData] = useState({
+        DATE: "",
         name: "",
-        age: "",
     });
     let name, value;
     const postUserData = (event) => {
@@ -46,13 +46,13 @@ function Informationcard() {
     const navigate = useNavigate();
     const submitData = async (event) => {
         event.preventDefault();
-        const { name, age } = userData;
+        const { DATE, name } = userData;
 
-        if (name.length === 0) {
+        if (DATE.length === 0) {
             alert("Invalid Credential!")
             return
         }
-        if (age.length === 0) {
+        if (name.length === 0) {
             alert("Invalid Credential!")
             return
         }
@@ -60,20 +60,20 @@ function Informationcard() {
 
 
         const res = await fetch(
-            "https://upbringing-31259-default-rtdb.firebaseio.com/userKidsRecords.json",
+            "https://upbringing-31259-default-rtdb.firebaseio.com/userTimeRecords.json",
             {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    name, age
+                    DATE, name
                 }),
             }
         );
         if (res) {
             // alert("Data Stored");
-            navigate("/information2");
+            navigate("/verification");
         }
         else {
             alert("Please fill the data");
@@ -106,28 +106,15 @@ function Informationcard() {
                 </h2>
                 <div className="flex w-cover mx-20 my-5 items-end">
                     <div className="relative w-full h-11 text-left">
-                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Kid's Name</label>
-                        <input type="name" id="name" placeholder="Anshul" name="name" value={userData.name} onChange={postUserData} className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >DATE Of Meet</label>
+                        <input type="date" id="DATE" placeholder="DD-MM-YYYY" name="DATE" value={userData.DATE} onChange={postUserData} className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                     </div>
                 </div>
                 <form method='POST' className="flex w-cover mx-20 mt-10 items-end">
                     <div className="relative w-full h-11 text-left">
 
-                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Kid's Age</label>
-                        <div className='bg-white text-'>
-                            <select id="age" type="age" name="age" value={userData.age} onChange={postUserData} className=" w-full bg-white bg-opacity-50 h-11 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border   text-base outline-none bg-transparent py-1 px-3 leading-8 transition- duration-200 ease-in-out" required>
-                                {
-                                    Array.from(Array(15), (e, i) => {
-                                        return (
-                                            <option key={i + 1} value={i + 1}>
-                                                {i + 1}
-                                            </option>
-                                        )
-                                    }
-                                    )
-                                }
-                            </select>
-                        </div>
+                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >name Of Meet</label>
+                        <input type="name" id="name" placeholder="09:42AM" name="name" value={userData.name} onChange={postUserData} className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                     </div>
                 </form>
                 <div className='w-fit mx-auto my-10'>
@@ -140,4 +127,4 @@ function Informationcard() {
     )
 }
 
-export default Informationcard
+export default Informationcard2

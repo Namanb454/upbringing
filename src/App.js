@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Information from './pages/Information';
 import Verification from './pages/Verification';
+import Information2 from './pages/Information2';
 
 function App() {
   return (
@@ -24,10 +25,11 @@ function App() {
           <Route exact path="/blogs" element={<Blogs />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/information" element={<Information />} />
+          <Route exact path="/information2" element={<Information2 />} />
           <Route exact path="/verification" element={<Verification />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-      {/* </div> */}
+        {/* </div> */}
       </>
     </Router>
   );

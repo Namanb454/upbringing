@@ -1,15 +1,12 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import { BsFillCheckSquareFill } from 'react-icons/bs';
 import '../signupcard.css'
 
 function VerificationCard() {
 
-    const navigate = useNavigate();
-    setTimeout(() => {
-        navigate("/");
-    }, 3000);
+ 
 
 
 
@@ -45,7 +42,11 @@ function VerificationCard() {
                 <p className='mx-auto my-5 font-semibold text-center'>
                     Say goodbye to "I'm bored" and hello to "Woohoo!"
                 </p>
+                <div className='w-fit mx-auto my-10'>
 
+<Link to="/" className="ml-auto font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>We're All Set
+</Link>
+</div>
 
 
             </div>
