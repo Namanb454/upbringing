@@ -1,9 +1,23 @@
-import { React, useState, useEffect } from 'react'
+import { React, useState, useEffect, useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import { Link, useNavigate } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import '../signupcard.css'
 
 function Informationcard() {
+    // EmailJS 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_287wp26', 'template_t7o0g3a', form.current, 'yiibgYLHgLmwK7jbo')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     const carriers = [
         'Engineer', 'Enterpreneur', 'Scientist', 'Musician', 'Footballer'
@@ -69,7 +83,7 @@ function Informationcard() {
     return (
         <div className='lg:absolute md:absolute lg:w-3/5 md:w-fit lg:top-0 md:top-0 top-0 md:mx-24 lg:mx-64' id='card1'>
 
-            <div className='lg:h-[95vh] md:h-[50vh] h-[100vh] lg:w-3/4 mx-auto lg:my-4 mb-0 lg:py-0 md:py-0 lg:rounded-3xl' id='card2'>
+            <form ref={form} onSubmit={sendEmail} className='lg:h-[95vh] md:h-[50vh] h-[100vh] lg:w-3/4 mx-auto lg:my-4 mb-0 lg:py-0 md:py-0 lg:rounded-3xl' id='card2'>
                 <div className="container mx-auto flex flex-wrap py-5 flex-col items-center">
                     <Link to='/' className="flex title-font font-medium items-center text-gray-900 mb-10 md:mb-0">
                         <img className='w-[100px] h-[55px]' src='images/Group1.png' alt='img' />
@@ -121,7 +135,7 @@ function Informationcard() {
                     <button type='submit' onClick={submitData} className="ml-auto font-sans bg-red-500 text-white border-0 py-1 px-5 focus:outline-none hover:bg-white hover:text-red-400 rounded-lg text-base my-5 md:mt-0" id='button1'>We're All Set
                     </button>
                 </div>
-            </div>
+            </form>
         </div>
     )
 }

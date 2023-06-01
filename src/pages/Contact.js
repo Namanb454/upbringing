@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { FiGlobe } from 'react-icons/fi';
@@ -8,9 +8,22 @@ import "../Contact.css"
 import { Link } from 'react-router-dom';
 
 function Contact() {
+    // EmailJS 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_287wp26', 'template_t7o0g3a', form.current, 'yiibgYLHgLmwK7jbo')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     const [userData, setUserData] = useState({
-        to_name: "",
+        user_name: "",
         email: "",
         comment: "",
     });
@@ -24,9 +37,9 @@ function Contact() {
     //connect with firebase
     const submitData = async (event) => {
         event.preventDefault();
-        const { to_name, email, comment } = userData;
+        const { user_name, email, comment } = userData;
 
-        if (to_name.length === 0) {
+        if (user_name.length === 0) {
             alert("Invalid Credential!")
             return
         }
@@ -47,7 +60,7 @@ function Contact() {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    to_name, email, comment,
+                    user_name, email, comment,
                 }),
             }
         );
@@ -77,12 +90,12 @@ function Contact() {
                     <section className="text-white body-font relative">
                         <div className=" mx-auto flex sm:flex-nowrap flex-wrap">
 
-                            <form method='post' className="lg:w-1/2 md:w-1/2 px-10 bg-[#F4F0E4] flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                            <form ref={form} onSubmit={sendEmail} method='post' className="lg:w-1/2 md:w-1/2 px-10 bg-[#F4F0E4] flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                                 <h2 className="text-gray-900 text-xl mb-1 font-semibold title-font">Send a Message</h2>
 
                                 <div className="relative text-left mb-4">
                                     <label htmlFor="name" className="leading-7 mx-2 text-sm text-gray-600">Name</label>
-                                    <input type="text" id="name" name="to_name" placeholder='Full Name' value={userData.to_name} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                                    <input type="text" id="name" name="user_name" placeholder='Full Name' value={userData.user_name} onChange={postUserData} className="w-full bg-white rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                                 </div>
                                 <div className="relative text-left mb-4">
                                     <label htmlFor="email" className="leading-7 mx-2 text-sm text-gray-600">Email</label>
@@ -109,7 +122,7 @@ function Contact() {
                                         <div className='w-6'>
                                             <FiMail className='w-full h-full' />
                                         </div>
-                                        <p className='mx-auto'> hello@upbringing.com</p>
+                                        <p className='mx-auto'>hello@upbringing.com</p>
                                     </Link>
                                 </div>
                                 <div className='w-full'>
