@@ -123,12 +123,12 @@ function Main() {
 
 
                 {/* Engage Your Child's Imagination and  */}
-                <div id='group3' className='relative lg:h-auto md:h-96 h-96 text-center rounded-t-3xl lg:mx-10 md:mx-5' >
+                <div id='group3' className='relative lg:h-auto md:h-96 h-[60vh] text-center rounded-t-3xl lg:mx-10 md:mx-5' >
 
                     <img className="lg:w- md:w- object-cover lg:h-full h-full object-center rounded-lg md:mt-0 mt-" src="images/Group3.png" alt="step" />
-                    <div className='absolute lg:top-16 md:top-10 top-10 lg:text-7xl md:text-5xl mx-auto text-2xl text-white w-[100%]' id='group3heading'>Engage Your Child's Imagination and <br /> Learning with Our Toy Subscription Box!</div>
-                    <p className="absolute w- lg:top-64 md:top-40 top-36 lg:text-xl md:text-lg text-sm text-white text-center font-normal lg:mx-40" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child's imagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
-                        valuable parenting skills through a fun and interactive gamified approach.</p>
+                    <div className='absolute lg:top-16 md:top-10 top-14 lg:text-7xl md:text-5xl mx- text-4xl text-white lg:w-[80%] lg:ml-[10%]' id='group3heading'>Engage Your Child's Imagination and Learning with Our  Toy Subscription Box!</div>
+                    <p className="absolute lg:top-64 md:top-40 top-56 lg:text-xl md:text-lg text-sm text-white text-justify font-normal lg:mx-40 mx-[10%]" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child's imagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
+                        valuable parenting skills through a fun and <p className='w-full text-center'> interactive gamified approach.</p> </p>
 
                     <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-[100%]'>
                         <Link to='/about' className="mx-5 bg-white text-black py-[7px] px-6 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
@@ -159,41 +159,41 @@ function Main() {
 
                                 <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-0 my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-0 my-auto'>
 
                                         <img src="/images/childstep1.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center lg:leading-8 md:leading-8 leading-4' id='about2' >Here you start with us, and at this stage our primary focus revolves around motor & cognitive development of a child, by providing personalized & interesting toys to develop the same.02</p>
+                                        <p className='w-[80%] ml-3 mr-2 text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-justify lg:leading-8 md:leading-8 leading-6' id='about2' >Here you start with us, and at this stage our primary focus revolves around motor & cognitive development of a child, by providing personalized & interesting toys to develop the same.</p>
 
                                     </div>
                                 </div>
                                 <div id="item2" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-auto my-auto'>
 
                                         <img src="/images/childstep2.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-8 leading-4' id='about2' >At this time we delve more deeper by focusing on the basics of STEM (Science, Technology, Engineering, and Mathematics) education by providing educational toys, resources & gamified platforms to learn</p>
+                                        <p className='w-[80%] mx-auto ml- text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-justify  lg:leading-8 md:leading-8 leading-6' id='about2' >At this time we delve more deeper by focusing on the basics of STEM (Science, Technology, Engineering, and Mathematics) education by providing educational toys, resources & gamified platforms to learn</p>
 
                                     </div>
                                 </div>
                                 <div id="item3" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-auto my-auto'>
 
                                         <img src="/images/childstep3.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-8 md:leading-8 leading-4' id='about2' >This age block is crucial for us as we try to  identify one niche, based on a kid’s interest & takes a stem further in that + focusing on STEM as a Major here.</p>
+                                        <p className='w-[80%] ml-1 text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-justify  lg:leading-8 md:leading-8 leading-6' id='about2' >This age block is crucial for us as we try to  identify one niche, based on a kid’s interest & takes a stem further in that + focusing on STEM as a Major here.</p>
 
                                     </div>
                                 </div>
                                 <div id="item4" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-auto my-auto'>
 
                                         <img src="/images/childstep4.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
-                                        <p className='w-[80%] ml-auto text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-center  lg:leading-7 md:leading-7 leading-4' id='about2' >At this stage we give parents a choice to select a niche based on the kid's interest and develop their mind, thinking, and knowledge around it, so that they can reach the zenith point faster than anyone else.& we do all this with minimal to Zero Screen exposure, and also no matter at what stage your kid is we always take your kid on a growth cycle by helping them learn, achieve, and create amazing things.</p>
+                                        <p className='w-[80%] ml-0 mr-0 text-black lg:my-auto md:my-auto my-auto lg:text-base md:text-base text-sm lg:text-left md:text-left text-justify  lg:leading-7 md:leading-7 leading-5' id='about2' >Here we empower parents with the freedom to choose a niche based on their child's interests, fostering their knowledge around it. Our approach enables them to reach new heights faster than their peers, with minimal screen exposure. No matter where they are, we always guide their growth, helping them learn, and create incredible things.</p>
 
                                     </div>
                                 </div>
@@ -202,8 +202,8 @@ function Main() {
 
                             {/* Click on the button to know how  */}
 
-                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-3xl text w-[100%]' id='group5heading'>We help parents at child’s every step</div>
-                            <p className="absolute w-[100%] lg:top-44 md:top-24 top-[30%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
+                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-5xl text lg:w-[100%] md:w-[100%] w-[80%] lg:ml-0 md:ml-0 ml-10' id='group5heading'>We help parents at child’s every step</div>
+                            <p className="absolute w-[100%] lg:top-44 md:top-24 top-[25%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
                             <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-64 bottom-[45%] w-[100%]'>
                                 <a href='#item1' className="lg:mx-auto md:mx-auto lg:h-11 md:h-10 h-10 bg-red-500 text-white lg:py-3 md:py-2 py-2 px-1 focus:outline-none hover:bg-white hover:text-red-400 m-auto rounded-lg text-base my-5 md:my-0 md:mt-0" onClick={handleMouseEnter} id='button1'>Infant-2year
@@ -243,8 +243,8 @@ function Main() {
                         <h2 className='lg:w-[80%] md:w-[100%] w-[100%] lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-3xl  text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
                         <p className="lg:w-[70%] md:w-[100%] w-[100%] lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-5 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
-                        <div className='mx- w-fit lg:mt-5 md:mt-5 mt-4'>
-                            <button className="mx-5 bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Sign Up
+                        <div className='w-fit lg:mt-5 md:mt-5 mt-0'>
+                            <button className=" bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Sign Up
                             </button>
                         </div>
                     </div>

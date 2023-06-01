@@ -20,7 +20,7 @@ export const exploreWorlds = [
     imgUrl: '/planet-03.png',
     img: 'images/kid1.png',
     title: 'The Ethics',
-    desc: "Child's body grow rapidly between age 2 to 12, and providing them with right nutrition and resources to help it grow is very crucial; We help parents learn about the science behind it and provide them with the right resources to make their child grow",
+    desc: "In the formative years of childhood, moral development begins to flourish hence at our center, we cultivate good manners, ethics, and morals through the power of storytelling. Through captivating tales, we inspire kindness, honesty, fairness, and respect",
     prompt: 'Read more'
   },
 
@@ -37,7 +37,7 @@ export const exploreWorlds1 = [
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    img: 'images/parent2.png',
+    img: 'images/parent1.png',
     title: 'Increasing Knowledge Quantum',
     desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
     prompt: 'Read more'
@@ -45,7 +45,7 @@ export const exploreWorlds1 = [
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    img: 'images/parent3.png',
+    img: 'images/parent1.png',
     title: 'A community of Parents',
     desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
     prompt: 'Read more'

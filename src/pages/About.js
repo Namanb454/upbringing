@@ -52,7 +52,7 @@ function About() {
                 <img className='lg:w-32 md:w-24 w-14' data-aos="fade-down" data-aos-delay="200" src='images/book3.png' alt='img' />
               </div>
             </div>
-            <p className="lg:w-[70%] md:w-[100%] w-[90%] text-black text-center lg:text-lg md:text-lg text-base lg:mx-44 md:mx-14 mx-0 font-normal lg:leading-9" id='about1' data-aos="zoom-in-up"
+            <p className="lg:w-[70%] md:w-[100%] w-[90%] text-black text-justify lg:text-lg md:text-lg text-base lg:mx-44 md:mx-14 mx-0 font-normal lg:leading-9" id='about1' data-aos="zoom-in-up"
               data-aos-delay="300"
             >
               At Up-bringing, we believe that every child deserves the opportunity to grow up happy, healthy, and confident. We understand that being a parent can be a challenging and overwhelming experience, and we want to make it easier for parents to provide their children with the best possible start in life.</p>
@@ -69,7 +69,7 @@ function About() {
             <div className='lg:w-1/2 md:w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
               <h2 className='lg:text-5xl md:text-4xl text-4xl lg:text-left md:text-left text-center font-[Sunny] text-[#9850FF]'>Our Motive  </h2>
 
-              <p className='lg:w-fit md:w-fit w-[95%] lg:h-[50vh] md:h-[20vh] h-[15vh] mx-auto text-white lg:text-base md:text-sm lg:text-left md:text-left text-center text-base lg:leading-8 md:leading-6 leading-4' id='about2'>
+              <p className='lg:w-fit md:w-fit w-[95%] lg:h-[50vh] md:h-[20vh] h-[15vh] mx-auto text-white lg:text-base md:text-sm lg:text-left md:text-left text-justify text-base lg:leading-8 md:leading-6 leading-4' id='about2'>
                 We were inspired to start Up-bringing after watching the founder's sister struggle to find the right resources to support her child's growth and development. She realized that there was a need for a comprehensive, all-in-one solution that would not only provide parents with high-quality toys and resources, but also become a part of the journey by providing support and guidance parents need to raise happy, healthy, intelligent children.</p>
 
               <div className="flex justify-end w-[100%] lg:py-2 md:py-2 py-2 gap-2">
@@ -85,7 +85,7 @@ function About() {
             <img src="/images/about2.png" className="relative lg:w-1/2 md:w-1/2 w-0 " alt='img' />
             <div className='lg:w-1/2 md:w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
               <h2 className='lg:text-5xl md:text-4xl text-4xl lg:text-left md:text-left text-center font-[Sunny] text-[#B6F24E]'>Our SoLUTION </h2>
-              <p className='lg:w-fit md:w-fit w-[95%] md:h-[20vh] lg:h-[50vh] h-[15vh] mx-auto lg:text-left md:text-left text-center text-white lg:text-base md:text-sm text-base lg:leading-8 md:leading-6 leading-4' id='about2' >That's why we created Up-bringing, a platform that provides parents with everything they need to help their children grow mentally, ethically, and physically. Every 6 weeks, we deliver a curated selection of toys and resources that are specifically designed to support your child's development. And with our dashboard, you can easily track your child's progress and learn more about parenting through a fun, gamified approach.</p>
+              <p className='lg:w-fit md:w-fit w-[95%] md:h-[20vh] lg:h-[50vh] h-[15vh] mx-auto lg:text-left md:text-left text-justify text-white lg:text-base md:text-sm text-base lg:leading-8 md:leading-6 leading-4' id='about2' >That's why we created Up-bringing, a platform that provides parents with everything they need to help their children grow mentally, ethically, and physically. Every 6 weeks, we deliver a curated selection of toys and resources that are specifically designed to support your child's development. And with our dashboard, you can easily track your child's progress and learn more about parenting through a fun, gamified approach.</p>
               <div className="flex w-[100%] lg:py-2 md:py-2 py-2 gap-2">
                 <a href="#item1" className="btn btn-xs bg-white text-black justify-start">
                   <MdArrowBack />
@@ -102,7 +102,7 @@ function About() {
             <img src="/images/about3.png" className="relative lg:w-1/2 md:w-1/2 w-0 " alt='img' />
             <div className='lg:w-1/2 md:w-1/2 text-black lg:px-28 md:px-10 lg:my-auto md:my-auto my-auto'>
               <h2 className='lg:text-5xl md:text-4xl text-4xl lg:text-left md:text-left text-center font-[Sunny] text-[#FF4D4D]'>Our COMMUNITY</h2>
-              <p className='lg:w-fit md:w-fit w-[95%] md:h-[20vh] lg:h-[50vh] h-[15vh] lg:text-left md:text-left text-center text-white lg:text-base md:text-sm text-base lg:leading-8 md:leading-6 leading-4' id='about2' >But we're more than just a toy delivery service. We're a community of like-minded parents who share a common goal: to give our children the best possible start in life. With Up-bringing, you'll have access to a supportive network of parents who are going through the same challenges and joys of parenting as you are.</p>
+              <p className='lg:w-fit md:w-fit w-[95%] md:h-[20vh] lg:h-[50vh] h-[15vh] lg:text-left md:text-left text-justify text-white lg:text-base md:text-sm text-base lg:leading-8 md:leading-6 leading-4' id='about2' >But we're more than just a toy delivery service. We're a community of like-minded parents who share a common goal: to give our children the best possible start in life. With Up-bringing, you'll have access to a supportive network of parents who are going through the same challenges and joys of parenting as you are.</p>
               <div className="flex justify-start w-[100%] lg:py-2 md:py-2 py-2 gap-2">
                 <a href="#item2" className="btn btn-xs bg-white text-black">
                   <MdArrowBack />
@@ -123,7 +123,7 @@ function About() {
             <br />
             <div className=""> learn best through play</div>
           </h1>
-          <p className="w-fit text-black text-center lg:text-lg lg:mx-60 md:mx-20 mx-0 font-normal leading-9" id='about1'>These values guide everything we do at up-bringing, and we're committed to upholding them in all aspects of our business."</p>
+          <p className="w-fit text-black text-justify lg:text-lg lg:mx-60 md:mx-20 mx-5 font-normal leading-8" id='about1'>These values guide everything we do at up-bringing, and we're committed to upholding them in all aspects of our business."</p>
           <div className='w-[100%]'>
           </div>
         </div>

@@ -35,7 +35,7 @@ function Footer() {
                 </div>
 
                 <div className='w-[100%] lg:mt-10 mt-10 lg:pb-5 pb-5'>
-                    <button className=' lg:mx-16 text-xl font-bold text-black md:mx-[30%] mx-5 text-center' id='footerNav'>
+                    <button className=' lg:mx-16 text-xl font-bold text-black md:mx-[30%] mx-[8%] text-center' id='footerNav'>
                         Leave a request
                     </button>
 

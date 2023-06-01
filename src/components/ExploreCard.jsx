@@ -49,8 +49,8 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
             className="object-contain lg:mx-0 -mx-5 lg:mb-56 md:mb-20 mb-60 lg:w-[100%] md:w-[150px] w-[100px]"
           />
         </div>
-        <div className='lg:w-[400px] md:w-[400px] w-[85%] mr-auto'>
-          <p className='text-white mb-50 lg:text-base md:text-base text-sm text-left mr-auto' id='group2text'>{desc}</p>
+        <div className='lg:w-[400px] md:w-[400px] w-[90%] mr-auto text-justify'>
+          <p className='text-white mb-50 lg:text-base md:text-base mr-auto text-sm text-left ' id='group2text'>{desc}</p>
 
         </div>
       </div>

@@ -12,14 +12,14 @@ function Contact() {
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_287wp26', 'template_t7o0g3a', form.current, 'yiibgYLHgLmwK7jbo')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+        e.preventDefault();
+
+        emailjs.sendForm('service_287wp26', 'template_t7o0g3a', form.current, 'yiibgYLHgLmwK7jbo')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     };
 
     const [userData, setUserData] = useState({
@@ -78,7 +78,7 @@ function Contact() {
             <div>
                 <Navbar />
             </div>
-            <div className=" bg-[#fff6ea] lg:mx-auto flex lg:py-10 md:py-10 py-10 md:mx-auto flex-col items-center" >
+            <div className=" bg-[#fff6ea] lg:mx-auto flex lg:py-10 md:py-10 md:mx-auto flex-col items-center" >
                 <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-center md:text-center lg:mb-10 md:mb-10 items-center text-center" id='main1'>
                     <h2 className=' lg:text-xl md:text-xl lg:mx-auto text-xl lg:mb-5 md:mb-5 mb-5' data-aos="zoom-out" data-aos-delay="200" id='about1heading'>CONTACT US</h2>
                     <div className='flex mx-auto'>
@@ -109,8 +109,8 @@ function Contact() {
                                 </button>
 
                             </form>
-                            <div className=" relative flex flex-wrap rounded shadow-md">
-                                <div className="bg-[#201528] lg:w-full px-6">
+                            <div className="bg-[#201528] relative flex flex-wrap rounded shadow-md py-10">
+                                <div className=" lg:w-full px-6">
                                     <h2 className="text-3xl my-5 font-semibold title-font">Contact Information</h2>
                                     <Link to="https://www.google.com/maps?ll=13.022352,77.681746&z=15&t=m&hl=en&gl=IN&mapclient=embed&q=Akshaya+Nagar+1st+Block+Akshya+Nagar,+Ramamurthy+Nagar+Bengaluru,+Karnataka+560016" className="flex w-3/4 mx-auto my-10 mt-1">
                                         <div className='w-6'>
@@ -118,7 +118,7 @@ function Contact() {
                                         </div>
                                         <p className='mx-auto' > Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</p>
                                     </Link>
-                                    <Link to="mailto: hello@upbringing.com" className="flex w-3/4 mx-auto my-5s mt-1">
+                                    <Link to="mailto: hello@upbringing.com" className="flex w-3/4 mx-auto my-5 mt-1">
                                         <div className='w-6'>
                                             <FiMail className='w-full h-full' />
                                         </div>
