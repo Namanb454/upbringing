@@ -85,8 +85,8 @@ function Main() {
                                 <img className='lg:w-14 md:w-14 w-10' data-aos="fade-down" data-aos-delay="200" src='images/icon3.png' alt='img' />
                             </div>
                         </div>
-                        <div className='w-[95vw] '>
-                            <p className="mb- mx-auto text-base text-black text-center font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based <b> personalized and educational toys </b> that help nurture your child's curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                        <div className='lg:w-[80%] md:w-fit w-[95%] mx-auto '>
+                            <p className="mb- mx-auto text-base text-black text-justify font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based personalized and educational toys that help nurture your child's curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
                         </div>
                         <div className='relative flex w-full'>
                             <div className='mr-auto lg:ml-[15%] ml-[2%] lg:w-20 md:w-16 w-12'>
@@ -128,7 +128,7 @@ function Main() {
                     <img className="lg:w- md:w- object-cover lg:h-full h-full object-center rounded-lg md:mt-0 mt-" src="images/Group3.png" alt="step" />
                     <div className='absolute lg:top-16 md:top-10 top-14 lg:text-7xl md:text-5xl mx- text-4xl text-white lg:w-[80%] lg:ml-[10%]' id='group3heading'>Engage Your Child's Imagination and Learning with Our  Toy Subscription Box!</div>
                     <p className="absolute lg:top-64 md:top-40 top-56 lg:text-xl md:text-lg text-sm text-white text-justify font-normal lg:mx-40 mx-[10%]" id='group3text'>Our carefully curated selection of toys, delivered every 2 months, is designed to not only spark your child's imagination but also provide a fun and engaging way for them to learn and explore. And as a parent, you can track your child's progress, connect with other like-minded parents in our community, and learn
-                        valuable parenting skills through a fun and <p className='w-full text-center'> interactive gamified approach.</p> </p>
+                        valuable parenting skills through a fun andinteractive gamified approach.</p>
 
                     <div className='absolute lg:bottom-12 md:bottom-0 bottom-4 w-[100%]'>
                         <Link to='/about' className="mx-5 bg-white text-black py-[7px] px-6 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Know More
