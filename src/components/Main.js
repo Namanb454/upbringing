@@ -86,7 +86,7 @@ function Main() {
                             </div>
                         </div>
                         <div className='lg:w-[80%] md:w-fit w-[95%] mx-auto '>
-                            <p className="mb- mx-auto text-base text-black text-justify font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based personalized and educational toys that help nurture your child's curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
+                            <p className="mb- mx-auto text-base text-black lg:text-center md:text-center text-justify font-bold leading-9" id='main1' data-aos="zoom-out" data-aos-delay="400" >By offering subscription based personalized and educational toys that help nurture your child's curiosity, creativity, and passion for science, medicine, engineering, entrepreneurship, sports, and more.</p>
                         </div>
                         <div className='relative flex w-full'>
                             <div className='mr-auto lg:ml-[15%] ml-[2%] lg:w-20 md:w-16 w-12'>
@@ -159,7 +159,7 @@ function Main() {
 
                                 <div id="item1" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-0 my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-0 my-auto'>
 
                                         <img src="/images/childstep1.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
@@ -169,7 +169,7 @@ function Main() {
                                 </div>
                                 <div id="item2" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-auto my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
 
                                         <img src="/images/childstep2.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
@@ -179,7 +179,7 @@ function Main() {
                                 </div>
                                 <div id="item3" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-auto my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
 
                                         <img src="/images/childstep3.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
@@ -189,7 +189,7 @@ function Main() {
                                 </div>
                                 <div id="item4" className="lg:flex md:flex carousel-item w-[100%]">
 
-                                    <div className='lg:w-3/4 md:w-[100%] flex mx-2 lg:my-auto md:my-auto my-auto'>
+                                    <div className='lg:w-3/4 md:w-[100%] flex mx-auto lg:my-auto md:my-auto my-auto'>
 
                                         <img src="/images/childstep4.png" className="relative lg:w-[25%] md:w-[25%] md:h-[80%] md:my-auto w-[25%] lg:-left-[5%]" alt='img' />
 
@@ -202,7 +202,7 @@ function Main() {
 
                             {/* Click on the button to know how  */}
 
-                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-5xl text lg:w-[100%] md:w-[100%] w-[80%] lg:ml-0 md:ml-0 ml-10' id='group5heading'>We help parents at child’s every step</div>
+                            <div className='absolute lg:top-20 md:top-5 top-10 lg:text-7xl md:text-5xl mx-auto text-5xl text lg:w-[100%] md:w-[100%] w-[85%] lg:ml-0 md:ml-0 ml-7' id='group5heading'>We help parents at child’s every step</div>
                             <p className="absolute w-[100%] lg:top-44 md:top-24 top-[25%] lg:text-xl text-sm mx-auto text-black text-center font-normal leading-" id='group5subheading'>Click on the button to know how</p>
 
                             <div className='absolute lg:flex-0 flex lg:bottom-96 md:bottom-64 bottom-[45%] w-[100%]'>
@@ -243,7 +243,7 @@ function Main() {
                         <h2 className='lg:w-[80%] md:w-[100%] w-[100%] lg:top-20 lg:pt-20 pt-10 lg:text-6xl md:text-5xl text-3xl  text-purple-500' id='group6heading'>Be first in the queue to experience the future of parenting</h2>
                         <p className="lg:w-[70%] md:w-[100%] w-[100%] lg:text-xl md:text-base text-sm lg:mt-5 md:mt-5 mt-5 text-white text- font-normal leading-" id='group3text'>Join our website for parenting resources and guides for all stages. Get valuable information, tips, and advice on a wide range of topics.</p>
 
-                        <div className='w-fit lg:mt-5 md:mt-5 mt-0'>
+                        <div className='w-fit lg:mt-5 md:mt-5 -mt-2'>
                             <button className=" bg-white text-black py-1 px-4 focus:outline-none hover:bg-black hover:text-white m-auto rounded-lg text-base my-5 md:mt-0" id='button2'>Sign Up
                             </button>
                         </div>
