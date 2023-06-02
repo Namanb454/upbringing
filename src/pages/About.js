@@ -52,7 +52,7 @@ function About() {
                 <img className='lg:w-32 md:w-24 w-14' data-aos="fade-down" data-aos-delay="200" src='images/book3.png' alt='img' />
               </div>
             </div>
-            <p className="lg:w-[70%] md:w-[100%] w-[90%] text-black text-justify lg:text-lg md:text-lg text-base lg:mx-44 md:mx-14 mx-0 font-normal lg:leading-9" id='about1' data-aos="zoom-in-up"
+            <p className="lg:w-[70%] md:w-[100%] w-[90%] text-black text-center lg:text-lg md:text-lg text-base lg:mx-44 md:mx-14 mx-0 font-normal lg:leading-9" id='about1' data-aos="zoom-in-up"
               data-aos-delay="300"
             >
               At Up-bringing, we believe that every child deserves the opportunity to grow up happy, healthy, and confident. We understand that being a parent can be a challenging and overwhelming experience, and we want to make it easier for parents to provide their children with the best possible start in life.</p>

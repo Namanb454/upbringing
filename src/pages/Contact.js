@@ -116,7 +116,8 @@ function Contact() {
                                         <div className='w-6'>
                                             <FiGlobe className='w-full h-full' />
                                         </div>
-                                        <p className='mx-auto' > Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</p>
+                                        <p className='mx-auto' >E-76, rosewood city,
+                                            Gurgaon, 122018</p>
                                     </Link>
                                     <Link to="mailto: hello@upbringing.com" className="flex w-3/4 mx-auto my-5 mt-1">
                                         <div className='w-6'>

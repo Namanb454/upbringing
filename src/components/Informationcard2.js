@@ -106,14 +106,14 @@ function Informationcard2() {
                 </h2>
                 <div className="flex w-cover mx-20 my-5 items-end">
                     <div className="relative w-full h-11 text-left">
-                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Date Of Meet</label>
+                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Date of Meet</label>
                         <input type="date" id="DATE" placeholder="DD-MM-YYYY" name="DATE" value={userData.DATE} onChange={postUserData} className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                     </div>
                 </div>
                 <form method='POST' className="flex w-cover mx-20 mt-10 items-end">
                     <div className="relative w-full h-11 text-left">
 
-                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >name Of Meet</label>
+                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Time of Meet</label>
                         <input type="name" id="name" placeholder="09:42AM" name="name" value={userData.name} onChange={postUserData} className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                     </div>
                 </form>

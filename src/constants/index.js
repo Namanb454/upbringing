@@ -39,7 +39,7 @@ export const exploreWorlds1 = [
     imgUrl: '/planet-02.png',
     img: 'images/parent1.png',
     title: 'Increasing Knowledge Quantum',
-    desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
+    desc: "We increase parents' knowledge quantum regarding child-rearing through interactive sessions with knowledge experts and engaging games. Also by addressing their concerns, we help clear any doubts they may have about providing the right environment for their child.",
     prompt: 'Read more'
   },
   {
@@ -47,7 +47,7 @@ export const exploreWorlds1 = [
     imgUrl: '/planet-03.png',
     img: 'images/parent1.png',
     title: 'A community of Parents',
-    desc: 'We help parents track the progress of their kid through our AI based dashboard which gives personalized progress of a kid in all areas, and weekly report chart of their kid.',
+    desc: "Our platform also includes a community exclusively for parents, where they can discuss parenting-related topics and connect with influencers who provide guidance throughout this beautiful journey.",
     prompt: 'Read more'
   },
 
