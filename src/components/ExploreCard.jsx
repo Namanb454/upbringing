@@ -36,7 +36,7 @@ const ExploreCard = ({ id, imgUrl, img, title, desc, prompt, index, active, hand
     ) : (
 
       <div dir='rtl' className="absolute lg:bottom-[-4px] lg:p-10 md:p-10 p-5 flex justify-start w-full flex-col rounded-b-[24px]" >
-        <h2 className="lg:w-96 text-left lg:mr-48 md:mr-40 mr-10 lg:text-5xl md:text-6xl text-5xl text-white" id='group2heading'>
+        <h2 className="lg:w-[65%] text-left lg:mr-auto md:mr-40 mr-10 lg:text-5xl md:text-6xl text-5xl text-white" id='group2heading'>
           {title}
         </h2>
         <div dir='rtl'

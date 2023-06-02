@@ -102,11 +102,11 @@ function Informationcard2() {
                         }} /></span>
                 </h2>
                 <h2 className='mx-20 lg:mb-0 mb-5 text-black font-bold'>
-                    Tell Us More About Your Kid
+                    Tell Us When We Can Connect For The Call
                 </h2>
                 <div className="flex w-cover mx-20 my-5 items-end">
                     <div className="relative w-full h-11 text-left">
-                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >DATE Of Meet</label>
+                        <label for="hero-field" className="leading-0 text-xs text-gray-500" >Date Of Meet</label>
                         <input type="date" id="DATE" placeholder="DD-MM-YYYY" name="DATE" value={userData.DATE} onChange={postUserData} className="w-full h-11 bg-opacity-50 rounded ring-1 focus:ring-2 focus:ring-black focus:bg-transparent border text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                     </div>
                 </div>
